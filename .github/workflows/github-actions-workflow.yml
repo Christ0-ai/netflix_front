@@ -27,7 +27,7 @@ jobs:
         run: npm ci
 
       - name: Format code verify
-        run: npm run format:check
+        run: npm run prettier:check
 
       - name: Quality code verify
         run: npm run lint
