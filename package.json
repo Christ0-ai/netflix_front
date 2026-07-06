@@ -5,10 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:mock": "concurrently \"npm run dev\" \"npx json-server --watch ./src/mocks/db.json\"",
     "test": "vitest",
     "build": "tsc -b && vite build",
-    "format": "prettier --write .",
-    "format:check": "prettier --check .",
+    "prettier:write": "prettier --write .",
+    "prettier:check": "prettier --check .",
     "lint": "eslint .",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit"
@@ -32,6 +33,7 @@
     "@vitejs/plugin-react": "^6.0.3",
     "@vitest/coverage-v8": "^4.1.9",
     "babel-plugin-react-compiler": "^1.0.0",
+    "concurrently": "^10.0.3",
     "eslint": "^10.6.0",
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.3",

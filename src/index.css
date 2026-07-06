@@ -1,12 +1,12 @@
 /*------------------- css variables -------------------*/
 :root {
-    --primary-text-color: #fff;
-    --primary-background-color: #000;
+  --primary-text-color: #fff;
+  --primary-background-color: #000;
 }
 
 body {
-    overflow-x: hidden;
-    padding: 2em;
-    color: var(--primary-text-color);
-    background: var(--primary-background-color);
+  overflow-x: hidden;
+  padding: 2em;
+  color: var(--primary-text-color);
+  background: var(--primary-background-color);
 }

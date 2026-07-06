@@ -1,12 +1,12 @@
 .emblaContainer {
-    display: flex;
-    gap: 0.5em;
+  display: flex;
+  gap: 0.5em;
 }
 
 .movie-card {
-    transition: transform 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .movie-card:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
