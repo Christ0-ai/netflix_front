@@ -5,7 +5,7 @@ import anatomieDuneChute from '../../assets/images/movies/anatomieDuneChute.webp
 
 describe('<EmblaCarousel>', () => {
   it('should render correctly', () => {
-    const { container } = render(<EmblaCarousel images={[anatomieDuneChute]} />);
+    const { container } = render(<EmblaCarousel movies={[anatomieDuneChute]} />);
     expect(container.firstChild).toMatchInlineSnapshot(`
       <div
         class="embla"
