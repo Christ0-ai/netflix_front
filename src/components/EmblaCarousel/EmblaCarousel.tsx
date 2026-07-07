@@ -1,9 +1,10 @@
 import type { EmblaOptionsType } from 'embla-carousel';
 import useEmblaCarousel from 'embla-carousel-react';
 import './emblaCarousel.css';
+import type { Movie } from '../../types/movies.ts';
 
 type PropType = {
-  movies: string[];
+  movies: Movie[];
   options?: EmblaOptionsType;
 };
 
