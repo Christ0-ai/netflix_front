@@ -1,4 +1,4 @@
-import type { Movie } from '../types/movies.ts';
+import type { Movie } from '@/types/movies.ts';
 
 export const getMovies = async (): Promise<Movie[]> => {
   const response = await fetch('http://localhost:3000/movies');
