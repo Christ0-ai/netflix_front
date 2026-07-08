@@ -2,6 +2,7 @@
 :root {
   --primary-text-color: #fff;
   --primary-background-color: #000;
+  --fontFamily: Arial, Helvetica, sans-serif;
 }
 
 body {

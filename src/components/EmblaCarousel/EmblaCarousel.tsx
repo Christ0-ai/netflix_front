@@ -1,23 +1,23 @@
 import type { EmblaOptionsType } from 'embla-carousel';
 import useEmblaCarousel from 'embla-carousel-react';
 import './emblaCarousel.css';
+import type { Movie } from '@/types/movies.ts';
 
-type PropType = {
-  images: string[];
+interface EmblaCarouselProps {
+  movies: Movie[];
   options?: EmblaOptionsType;
-};
+}
 
-const EmblaCarousel = (props: PropType) => {
-  const { images, options } = props;
+const EmblaCarousel = ({ movies, options }: Readonly<EmblaCarouselProps>) => {
   const [emblaRef] = useEmblaCarousel(options);
 
   return (
     <div className="embla">
       <div ref={emblaRef}>
         <div className="emblaContainer">
-          {images.map((image, index) => (
+          {movies.map((movie, index) => (
             <div className="movie-card" key={`movie ${index}`}>
-              <img src={image} alt="" height={250} />
+              <img src={movie.poster_path} alt="" height={250} />
             </div>
           ))}
         </div>
