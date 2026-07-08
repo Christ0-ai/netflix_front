@@ -45,27 +45,23 @@ describe('<MoviesSearchResult>', () => {
     const { container } = render(<MoviesSearchResult movies={movies} searchMovie={'super'} />);
     expect(container.firstChild).toMatchInlineSnapshot(`
       <section
-        id="movies"
+        class="flex flex-row flex-wrap justify-center gap-2 mt-10"
       >
-        <section
-          class="searchMovie"
-        >
+        <section>
           <div>
             <img
               alt="Superman Returns"
-              height="250"
               src="https://image.tmdb.org/t/p/w500/385XwTQZDpRX2d3kxtnpiLrjBXw.jpg"
+              width="250"
             />
           </div>
         </section>
-        <section
-          class="searchMovie"
-        >
+        <section>
           <div>
             <img
               alt="Supergirl"
-              height="250"
               src="https://image.tmdb.org/t/p/w500/niSvU02l2BONH9ivubV6K1a5QiK.jpg"
+              width="250"
             />
           </div>
         </section>
@@ -77,7 +73,7 @@ describe('<MoviesSearchResult>', () => {
     const { container } = render(<MoviesSearchResult movies={[]} searchMovie={'super'} />);
     expect(container.firstChild).toMatchInlineSnapshot(`
       <p
-        id="unknownMovie"
+        class="text-center mt-10"
       >
         Aucun film trouvé via votre recherche: 
         super

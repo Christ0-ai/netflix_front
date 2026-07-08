@@ -44,30 +44,28 @@ describe('<EmblaCarousel>', () => {
 
     const { container } = render(<EmblaCarousel movies={movies} />);
     expect(container.firstChild).toMatchInlineSnapshot(`
-      <div
-        class="embla"
-      >
+      <div>
         <div>
           <div
-            class="emblaContainer"
+            class="flex gap-2 "
             style="transform: translate3d(0px,0px,0px);"
           >
             <div
-              class="movie-card"
+              class="movie-card flex-none"
             >
               <img
                 alt=""
-                height="250"
                 src="https://image.tmdb.org/t/p/w500/AnJ8IQJI23hNpYXVNaythu061Ru.jpg"
+                width="200"
               />
             </div>
             <div
-              class="movie-card"
+              class="movie-card flex-none"
             >
               <img
                 alt=""
-                height="250"
                 src="https://image.tmdb.org/t/p/w500/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg"
+                width="200"
               />
             </div>
           </div>

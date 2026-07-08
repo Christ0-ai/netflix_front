@@ -1,4 +1,3 @@
-import './App.css';
 import Home from './screens/Home/Home.tsx';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 
