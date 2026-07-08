@@ -5,6 +5,7 @@ export type Movie = {
   genre: string;
   release_date: Date;
   poster_path: string;
+  avis: Avis[];
 };
 
 export type Avis = {

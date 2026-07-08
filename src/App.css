@@ -1,11 +1,11 @@
 #header {
-    display: flex;
-    justify-content: center;
-    height: auto;
+  display: flex;
+  justify-content: center;
+  height: auto;
 }
 
 .proposeMovie h2 {
-    font-family: var(--fontFamily);
-    font-size: 25px;
-    font-weight: bold;
+  font-family: var(--fontFamily);
+  font-size: 25px;
+  font-weight: bold;
 }

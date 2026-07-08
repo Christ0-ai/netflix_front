@@ -1,14 +1,14 @@
-import logoNetflix from '../../assets/images/bg-netflix.webp';
+import logoNetflix from '@/assets/images/bg-netflix.webp';
 import { useQuery } from '@tanstack/react-query';
 import { ClipLoader } from 'react-spinners';
 import './styles.css';
-import type { Movie } from '../../types/movies.ts';
-import { MovieTypes } from '../../constante.ts';
-import { getMovies } from '../../services/movies.ts';
-import SearchBar from '../../components/SearchBar/SearchBar.tsx';
+import type { Movie } from '@/types/movies.ts';
+import { MovieTypes } from '@/constante.ts';
+import { getMovies } from '@/services/movies.ts';
+import SearchBar from '@/components/SearchBar/SearchBar.tsx';
 import { useState } from 'react';
-import MoviesSearchResult from '../../components/MoviesSearchResult/MoviesSearchResult.tsx';
-import EmblaCarousel from '../../components/EmblaCarousel/EmblaCarousel.tsx';
+import MoviesSearchResult from '@/components/MoviesSearchResult/MoviesSearchResult.tsx';
+import EmblaCarousel from '@/components/EmblaCarousel/EmblaCarousel.tsx';
 
 function Home() {
   // queries
@@ -33,27 +33,27 @@ function Home() {
   const categories = data
     ? [
         {
-          title: 'Animation',
+          title: MovieTypes.ANIMATION,
           movies: data.animation,
         },
         {
-          title: 'Science Fiction',
+          title: MovieTypes.SCIENCE_FICTION,
           movies: data.scienceFiction,
         },
         {
-          title: 'Horreur',
+          title: MovieTypes.HORROR,
           movies: data.horror,
         },
         {
-          title: 'Action',
+          title: MovieTypes.ACTION,
           movies: data.action,
         },
         {
-          title: 'Famille',
+          title: MovieTypes.FAMILY,
           movies: data.family,
         },
         {
-          title: 'Drame',
+          title: MovieTypes.DRAMA,
           movies: data.drama,
         },
       ]

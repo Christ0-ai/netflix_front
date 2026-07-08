@@ -1,14 +1,14 @@
 .searchbar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 input {
-    display: flex;
-    padding: 0.5em;
-    background: #FFF;
-    border-radius: 15px;
-    outline: none;
-    border: none;
+  display: flex;
+  padding: 0.5em;
+  background: #fff;
+  border-radius: 15px;
+  outline: none;
+  border: none;
 }
