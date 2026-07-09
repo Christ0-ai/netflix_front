@@ -1,8 +1,3 @@
-.emblaContainer {
-  display: flex;
-  gap: 0.5em;
-}
-
 .movie-card {
   transition: transform 0.3s ease;
 }

@@ -10,14 +10,13 @@ interface EmblaCarouselProps {
 
 const EmblaCarousel = ({ movies, options }: Readonly<EmblaCarouselProps>) => {
   const [emblaRef] = useEmblaCarousel(options);
-
   return (
-    <div className="embla">
+    <div>
       <div ref={emblaRef}>
-        <div className="emblaContainer">
-          {movies.map((movie, index) => (
-            <div className="movie-card" key={`movie ${index}`}>
-              <img src={movie.poster_path} alt="" height={250} />
+        <div className="flex gap-2 ">
+          {movies.map((movie) => (
+            <div className="movie-card flex-none" key={movie.id}>
+              <img src={movie.poster_path} width={'200'} alt="" />
             </div>
           ))}
         </div>

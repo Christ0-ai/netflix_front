@@ -1,12 +1,11 @@
 import logoNetflix from '@/assets/images/bg-netflix.webp';
 import { useQuery } from '@tanstack/react-query';
-import { ClipLoader } from 'react-spinners';
-import './styles.css';
 import type { Movie } from '@/types/movies.ts';
 import { MovieTypes } from '@/constante.ts';
 import { getMovies } from '@/services/movies.ts';
 import SearchBar from '@/components/SearchBar/SearchBar.tsx';
 import { useState } from 'react';
+import { SpinnerBasic } from '@/components/SpinnerBasic.tsx';
 import MoviesSearchResult from '@/components/MoviesSearchResult/MoviesSearchResult.tsx';
 import EmblaCarousel from '@/components/EmblaCarousel/EmblaCarousel.tsx';
 
@@ -61,17 +60,15 @@ function Home() {
 
   return (
     <>
-      <section id="header">
-        <img src={logoNetflix} height={200} alt="logo netflix" />
+      <section className="flex justify-center m-10">
+        <img src={logoNetflix} width={200} alt="logo netflix" />
       </section>
 
       <SearchBar setSearchMovie={setSearchMovie} />
-      {error && <p>Error: {error.message}</p>}
 
+      {error && <p>Error: {error.message}</p>}
       {isPending ? (
-        <div id="spinner">
-          <ClipLoader color="#FFF" />
-        </div>
+        <SpinnerBasic />
       ) : searchMovie ? (
         <MoviesSearchResult movies={displayMovies} searchMovie={searchMovie} />
       ) : (

@@ -4,7 +4,7 @@
 
 - React 19
 - Typescript
-- Ant Design https://ant.design/docs/react/use-with-vite lib composant
+- Hero ui https://heroui.com/ lib composant
 
 ## Fonctionnalités
 

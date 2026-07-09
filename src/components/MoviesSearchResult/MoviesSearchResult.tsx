@@ -1,5 +1,4 @@
 import type { Movie } from '@/types/movies.ts';
-import './styles.css';
 
 interface MoviesSearchResultProps {
   movies: Movie[];
@@ -8,13 +7,13 @@ interface MoviesSearchResultProps {
 
 function MoviesSearchResult({ movies, searchMovie }: Readonly<MoviesSearchResultProps>) {
   return movies.length === 0 ? (
-    <p id="unknownMovie">Aucun film trouvé via votre recherche: {searchMovie}</p>
+    <p className="text-center mt-10">Aucun film trouvé via votre recherche: {searchMovie}</p>
   ) : (
-    <section id="movies">
+    <section className="flex flex-row flex-wrap justify-center gap-2 mt-10">
       {movies.map((m) => (
-        <section className="searchMovie" key={`movie-${m.id}`}>
+        <section key={`movie-${m.id}`}>
           <div>
-            <img src={m.poster_path} alt={m.title} height={250} />
+            <img src={m.poster_path} alt={m.title} width={250} />
           </div>
         </section>
       ))}

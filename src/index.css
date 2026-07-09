@@ -1,13 +1,63 @@
-/*------------------- css variables -------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import 'tailwindcss';
+@import '@heroui/styles';
+
+/*
+ * HeroUI Theme Customization
+ * Add this to your global.css after importing @heroui/styles
+ * Only includes variables users need to customize
+ * @see https://heroui.com/docs/react/getting-started/theming
+ */
+
+@theme {
+  --font-inter: 'Inter', sans-serif;
+}
+
 :root {
-  --primary-text-color: #fff;
-  --primary-background-color: #000;
-  --fontFamily: Arial, Helvetica, sans-serif;
+  --accent: oklch(58.14% 0.2349 27.99);
+  --accent-foreground: oklch(99.11% 0 0);
+  --background: oklch(0 0 0);
+  --border: oklch(28% 0 27.99);
+  --danger: oklch(0.4964 0.1994 28.56);
+  --danger-foreground: oklch(98% 0.0199 28.56);
+  --default: oklch(27.4% 0 27.99);
+  --default-foreground: oklch(99.11% 0 0);
+  --field-background: oklch(21.03% 0 27.99);
+  --field-border: transparent;
+  --field-foreground: oklch(99.11% 0 27.99);
+  --field-placeholder: oklch(70.5% 0 27.99);
+  --focus: oklch(58.14% 0.2349 27.99);
+  --foreground: oklch(99.11% 0 27.99);
+  --muted: oklch(70.5% 0 27.99);
+  --overlay: oklch(21.03% 0 27.99);
+  --overlay-foreground: oklch(99.11% 0 27.99);
+  --scrollbar: oklch(70.5% 0 27.99);
+  --segment: oklch(39.64% 0 27.99);
+  --segment-foreground: oklch(99.11% 0 27.99);
+  --separator: oklch(25% 0 27.99);
+  --success: oklch(0.7677 0.1899 148.1);
+  --success-foreground: oklch(15% 0.05 148.1);
+  --surface: oklch(21.03% 0 27.99);
+  --surface-foreground: oklch(99.11% 0 27.99);
+  --surface-secondary: oklch(25.7% 0 27.99);
+  --surface-secondary-foreground: oklch(99.11% 0 27.99);
+  --surface-tertiary: oklch(27.21% 0 27.99);
+  --surface-tertiary-foreground: oklch(99.11% 0 27.99);
+  --warning: oklch(0.8239 0.153 74.6);
+  --warning-foreground: oklch(15% 0.0459 74.6);
 }
 
 body {
-  overflow-x: hidden;
   padding: 2em;
-  color: var(--primary-text-color);
-  background: var(--primary-background-color);
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+h2,
+p {
+  font-family: var(--font-inter);
+  color: #fff;
 }
