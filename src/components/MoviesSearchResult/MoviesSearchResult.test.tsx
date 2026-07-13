@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest';
 import { render } from '@testing-library/react';
 import MoviesSearchResult from '@/components/MoviesSearchResult/MoviesSearchResult.tsx';
 import type { Movie } from '@/types/movies.ts';
+import { MemoryRouter } from 'react-router';
 
 describe('<MoviesSearchResult>', () => {
   it('renders correctly when searchMovie found movies', () => {
@@ -20,6 +21,14 @@ describe('<MoviesSearchResult>', () => {
             note: 5,
             comment: 'un commentaire',
             creationDate: new Date(),
+            user: {
+              id: 0,
+              name: '',
+              email: '',
+              password: '',
+              role: '',
+              avis: [],
+            },
           },
         ],
       },
@@ -37,18 +46,32 @@ describe('<MoviesSearchResult>', () => {
             note: 5,
             comment: 'un commentaire',
             creationDate: new Date(),
+            user: {
+              id: 0,
+              name: '',
+              email: '',
+              password: '',
+              role: '',
+              avis: [],
+            },
           },
         ],
       },
     ];
 
-    const { container } = render(<MoviesSearchResult movies={movies} searchMovie={'super'} />);
+    const { container } = render(
+      <MemoryRouter>
+        <MoviesSearchResult movies={movies} searchMovie={'super'} />
+      </MemoryRouter>,
+    );
     expect(container.firstChild).toMatchInlineSnapshot(`
       <section
         class="flex flex-row flex-wrap justify-center gap-2 mt-10"
       >
         <section>
-          <div>
+          <div
+            class="movie-card"
+          >
             <img
               alt="Superman Returns"
               src="https://image.tmdb.org/t/p/w500/385XwTQZDpRX2d3kxtnpiLrjBXw.jpg"
@@ -57,7 +80,9 @@ describe('<MoviesSearchResult>', () => {
           </div>
         </section>
         <section>
-          <div>
+          <div
+            class="movie-card"
+          >
             <img
               alt="Supergirl"
               src="https://image.tmdb.org/t/p/w500/niSvU02l2BONH9ivubV6K1a5QiK.jpg"
@@ -70,7 +95,11 @@ describe('<MoviesSearchResult>', () => {
   });
 
   it('renders correctly when searchMovie notfound movies', () => {
-    const { container } = render(<MoviesSearchResult movies={[]} searchMovie={'super'} />);
+    const { container } = render(
+      <MemoryRouter>
+        <MoviesSearchResult movies={[]} searchMovie={'super'} />
+      </MemoryRouter>,
+    );
     expect(container.firstChild).toMatchInlineSnapshot(`
       <p
         class="text-center mt-10"

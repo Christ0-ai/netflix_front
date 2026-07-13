@@ -49,15 +49,11 @@
 
 body {
   padding: 2em;
+  color: #fff;
+  font-family: var(--font-inter);
 }
 
 h2 {
   font-size: 1.5em;
   font-weight: bold;
-}
-
-h2,
-p {
-  font-family: var(--font-inter);
-  color: #fff;
 }

@@ -1,8 +1,32 @@
-import { useParams } from 'react-router';
+import { useLoaderData } from 'react-router';
+import type { Movie } from '@/types/movies.ts';
+import CardAvis from '@/components/CardAvis/CardAvis.tsx';
+
+interface MovieDetailLoaderData {
+  movie: Movie;
+}
 
 function MovieDetail() {
-  const { id } = useParams();
-  return <p>Movie Detail {id}</p>;
+  const { movie } = useLoaderData<MovieDetailLoaderData>();
+
+  return (
+    <div className={'flex justify-center flex-col items-center'}>
+      <img src={movie.poster_path} width={'200'} alt="" />
+      <div className={'flex flex-col gap-4 items-center'}>
+        <div className={'flex flex-col items-center'}>
+          <h1 className={'text-5xl typography--weight-bold'}>{movie.title}</h1>
+          <p>{movie.genre}</p>
+          <p>{movie.release_date.toString()}</p>
+        </div>
+        <p className="font-extralight w-1/3 text-justify">{movie.description}</p>
+      </div>
+      <div className={'flex mt-10 gap-4 items-center'}>
+        {movie.avis.map((a) => (
+          <CardAvis key={a.id} avis={a} />
+        ))}
+      </div>
+    </div>
+  );
 }
 
 export default MovieDetail;

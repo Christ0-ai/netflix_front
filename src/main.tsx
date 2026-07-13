@@ -6,20 +6,27 @@ import { RouterProvider } from 'react-router/dom';
 import MovieDetail from '@/screens/MovieDetail/MovieDetail.tsx';
 import App from '@/App.tsx';
 import PageError from '@/screens/PageError/PageError.tsx';
+import { getMovieById, getMovies } from '@/services/movies.ts';
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Outlet />,
+    Component: Outlet,
     errorElement: <PageError />,
     children: [
       {
         path: '/',
-        element: <App />,
+        loader: async () => {
+          return { movies: await getMovies() };
+        },
+        Component: App,
       },
       {
         path: 'movie/:id',
-        element: <MovieDetail />,
+        loader: async ({ params }) => {
+          return { movie: await getMovieById(Number(params.id)) };
+        },
+        Component: MovieDetail,
       },
     ],
   },
@@ -27,6 +34,6 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <RouterProvider router={router} />,
+    <RouterProvider router={router} />
   </StrictMode>,
 );
