@@ -7,12 +7,112 @@
       "release_date": "2026-06-10",
       "genre": "Science Fiction",
       "poster_path": "https://image.tmdb.org/t/p/w500/AnJ8IQJI23hNpYXVNaythu061Ru.jpg",
-      "avis": {
-        "id": 769,
-        "note": 5,
-        "comment": "un commentaire",
-        "creationDate": "03/07/2026"
-      }
+      "avis": [
+        {
+          "id": 10000,
+          "note": 3,
+          "comment": "Ça passe le temps sans être marquant.",
+          "creationDate": "26/05/2026",
+          "user": {
+            "id": 5,
+            "name": "Emma Rousseau",
+            "email": "emma.rousseau@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10001,
+          "note": 5,
+          "comment": "Parfait du début à la fin, aucune longueur.",
+          "creationDate": "08/07/2026",
+          "user": {
+            "id": 5,
+            "name": "Emma Rousseau",
+            "email": "emma.rousseau@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10002,
+          "note": 3,
+          "comment": "Un peu déçu par la fin, mais l'ensemble se laisse voir.",
+          "creationDate": "15/06/2026",
+          "user": {
+            "id": 8,
+            "name": "Hugo Simon",
+            "email": "hugo.simon@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10003,
+          "note": 4,
+          "comment": "Vraiment sympa à regarder entre amis, bon divertissement.",
+          "creationDate": "09/06/2026",
+          "user": {
+            "id": 4,
+            "name": "David Girard",
+            "email": "david.girard@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10004,
+          "note": 4,
+          "comment": "Belle réalisation, l'histoire est prenante du début à la fin.",
+          "creationDate": "27/05/2026",
+          "user": {
+            "id": 2,
+            "name": "Bruno Lefevre",
+            "email": "bruno.lefevre@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10005,
+          "note": 5,
+          "comment": "Un vrai coup de cœur, je l'ai déjà revu deux fois.",
+          "creationDate": "08/07/2026",
+          "user": {
+            "id": 3,
+            "name": "Chloe Dubois",
+            "email": "chloe.dubois@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10006,
+          "note": 3,
+          "comment": "Sympa mais oubliable, rien de transcendant.",
+          "creationDate": "14/06/2026",
+          "user": {
+            "id": 1,
+            "name": "Alice Martin",
+            "email": "alice.martin@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10007,
+          "note": 4,
+          "comment": "Agréable surprise, je m'attendais à moins bien.",
+          "creationDate": "18/05/2026",
+          "user": {
+            "id": 2,
+            "name": "Bruno Lefevre",
+            "email": "bruno.lefevre@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        }
+      ]
     },
     {
       "id": 1339713,
@@ -21,12 +121,99 @@
       "release_date": "2026-05-13",
       "genre": "Horror",
       "poster_path": "https://image.tmdb.org/t/p/w500/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg",
-      "avis": {
-        "id": 1636,
-        "note": 5,
-        "comment": "un commentaire",
-        "creationDate": "03/07/2026"
-      }
+      "avis": [
+        {
+          "id": 10008,
+          "note": 4,
+          "comment": "Belle réalisation, l'histoire est prenante du début à la fin.",
+          "creationDate": "11/06/2026",
+          "user": {
+            "id": 4,
+            "name": "David Girard",
+            "email": "david.girard@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10009,
+          "note": 4,
+          "comment": "Belle réalisation, l'histoire est prenante du début à la fin.",
+          "creationDate": "22/06/2026",
+          "user": {
+            "id": 4,
+            "name": "David Girard",
+            "email": "david.girard@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10010,
+          "note": 3,
+          "comment": "Correct sans plus, ça se regarde une fois.",
+          "creationDate": "03/05/2026",
+          "user": {
+            "id": 4,
+            "name": "David Girard",
+            "email": "david.girard@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10011,
+          "note": 5,
+          "comment": "Je recommande à 100%, une pépite.",
+          "creationDate": "23/06/2026",
+          "user": {
+            "id": 6,
+            "name": "Farid Benali",
+            "email": "farid.benali@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10012,
+          "note": 4,
+          "comment": "Belle réalisation, l'histoire est prenante du début à la fin.",
+          "creationDate": "31/05/2026",
+          "user": {
+            "id": 4,
+            "name": "David Girard",
+            "email": "david.girard@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10013,
+          "note": 5,
+          "comment": "Grosse claque visuelle et émotionnelle, bravo.",
+          "creationDate": "26/05/2026",
+          "user": {
+            "id": 3,
+            "name": "Chloe Dubois",
+            "email": "chloe.dubois@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10014,
+          "note": 4,
+          "comment": "Bon rythme, bonne photographie, je valide.",
+          "creationDate": "03/06/2026",
+          "user": {
+            "id": 3,
+            "name": "Chloe Dubois",
+            "email": "chloe.dubois@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        }
+      ]
     },
     {
       "id": 1084244,
@@ -35,12 +222,112 @@
       "release_date": "2026-06-17",
       "genre": "Animation",
       "poster_path": "https://image.tmdb.org/t/p/w500/sfQtVlIHljToOwYjhe21KPGzZWK.jpg",
-      "avis": {
-        "id": 420,
-        "note": 5,
-        "comment": "un commentaire",
-        "creationDate": "03/07/2026"
-      }
+      "avis": [
+        {
+          "id": 10015,
+          "note": 4,
+          "comment": "Belle réalisation, l'histoire est prenante du début à la fin.",
+          "creationDate": "22/05/2026",
+          "user": {
+            "id": 8,
+            "name": "Hugo Simon",
+            "email": "hugo.simon@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10016,
+          "note": 5,
+          "comment": "Un des meilleurs films que j'ai vus cette année, à voir absolument.",
+          "creationDate": "27/05/2026",
+          "user": {
+            "id": 6,
+            "name": "Farid Benali",
+            "email": "farid.benali@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10017,
+          "note": 4,
+          "comment": "Très bon film, quelques longueurs mais ça reste solide.",
+          "creationDate": "23/05/2026",
+          "user": {
+            "id": 2,
+            "name": "Bruno Lefevre",
+            "email": "bruno.lefevre@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10018,
+          "note": 1,
+          "comment": "Un scénario incohérent du début à la fin.",
+          "creationDate": "31/05/2026",
+          "user": {
+            "id": 8,
+            "name": "Hugo Simon",
+            "email": "hugo.simon@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10019,
+          "note": 4,
+          "comment": "Très bon film, quelques longueurs mais ça reste solide.",
+          "creationDate": "06/06/2026",
+          "user": {
+            "id": 4,
+            "name": "David Girard",
+            "email": "david.girard@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10020,
+          "note": 3,
+          "comment": "Sympa mais oubliable, rien de transcendant.",
+          "creationDate": "01/07/2026",
+          "user": {
+            "id": 5,
+            "name": "Emma Rousseau",
+            "email": "emma.rousseau@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10021,
+          "note": 4,
+          "comment": "Agréable surprise, je m'attendais à moins bien.",
+          "creationDate": "26/05/2026",
+          "user": {
+            "id": 7,
+            "name": "Gaelle Perrin",
+            "email": "gaelle.perrin@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10022,
+          "note": 5,
+          "comment": "Je recommande à 100%, une pépite.",
+          "creationDate": "05/06/2026",
+          "user": {
+            "id": 5,
+            "name": "Emma Rousseau",
+            "email": "emma.rousseau@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        }
+      ]
     },
     {
       "id": 1169516,
@@ -49,12 +336,86 @@
       "release_date": "2026-06-25",
       "genre": "Action",
       "poster_path": "https://image.tmdb.org/t/p/w500/1JlfUuvvX5xLP2LIDah4JhWUtTx.jpg",
-      "avis": {
-        "id": 17,
-        "note": 5,
-        "comment": "un commentaire",
-        "creationDate": "03/07/2026"
-      }
+      "avis": [
+        {
+          "id": 10023,
+          "note": 4,
+          "comment": "Vraiment sympa à regarder entre amis, bon divertissement.",
+          "creationDate": "07/07/2026",
+          "user": {
+            "id": 5,
+            "name": "Emma Rousseau",
+            "email": "emma.rousseau@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10024,
+          "note": 2,
+          "comment": "Scénario poussif, j'ai failli arrêter en cours de route.",
+          "creationDate": "19/06/2026",
+          "user": {
+            "id": 4,
+            "name": "David Girard",
+            "email": "david.girard@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10025,
+          "note": 3,
+          "comment": "Un peu déçu par la fin, mais l'ensemble se laisse voir.",
+          "creationDate": "10/06/2026",
+          "user": {
+            "id": 4,
+            "name": "David Girard",
+            "email": "david.girard@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10026,
+          "note": 4,
+          "comment": "Vraiment sympa à regarder entre amis, bon divertissement.",
+          "creationDate": "09/07/2026",
+          "user": {
+            "id": 1,
+            "name": "Alice Martin",
+            "email": "alice.martin@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10027,
+          "note": 4,
+          "comment": "Vraiment sympa à regarder entre amis, bon divertissement.",
+          "creationDate": "16/05/2026",
+          "user": {
+            "id": 2,
+            "name": "Bruno Lefevre",
+            "email": "bruno.lefevre@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10028,
+          "note": 3,
+          "comment": "Ça passe le temps sans être marquant.",
+          "creationDate": "27/05/2026",
+          "user": {
+            "id": 3,
+            "name": "Chloe Dubois",
+            "email": "chloe.dubois@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        }
+      ]
     },
     {
       "id": 1083381,
@@ -63,12 +424,73 @@
       "genre": "Horror",
       "release_date": "2026-05-27",
       "poster_path": "https://image.tmdb.org/t/p/w500/rhGx6E3qRNMgj3i5su2oukNHwIQ.jpg",
-      "avis": {
-        "id": 835,
-        "note": 5,
-        "comment": "un commentaire",
-        "creationDate": "03/07/2026"
-      }
+      "avis": [
+        {
+          "id": 10029,
+          "note": 5,
+          "comment": "Un des meilleurs films que j'ai vus cette année, à voir absolument.",
+          "creationDate": "02/07/2026",
+          "user": {
+            "id": 4,
+            "name": "David Girard",
+            "email": "david.girard@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10030,
+          "note": 4,
+          "comment": "Vraiment sympa à regarder entre amis, bon divertissement.",
+          "creationDate": "21/05/2026",
+          "user": {
+            "id": 3,
+            "name": "Chloe Dubois",
+            "email": "chloe.dubois@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10031,
+          "note": 2,
+          "comment": "Pas convaincu par la réalisation, ça manque de rythme.",
+          "creationDate": "04/05/2026",
+          "user": {
+            "id": 2,
+            "name": "Bruno Lefevre",
+            "email": "bruno.lefevre@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10032,
+          "note": 4,
+          "comment": "Bon rythme, bonne photographie, je valide.",
+          "creationDate": "09/07/2026",
+          "user": {
+            "id": 3,
+            "name": "Chloe Dubois",
+            "email": "chloe.dubois@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10033,
+          "note": 5,
+          "comment": "Un chef-d'œuvre absolu, je n'ai pas vu le temps passer !",
+          "creationDate": "05/06/2026",
+          "user": {
+            "id": 2,
+            "name": "Bruno Lefevre",
+            "email": "bruno.lefevre@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        }
+      ]
     },
     {
       "id": 1273221,
@@ -77,12 +499,73 @@
       "release_date": "2026-06-03",
       "genre": "Comedy",
       "poster_path": "https://image.tmdb.org/t/p/w500/1KlYdWoOrbL5ux357rW9LC155qw.jpg",
-      "avis": {
-        "id": 397,
-        "note": 5,
-        "comment": "un commentaire",
-        "creationDate": "03/07/2026"
-      }
+      "avis": [
+        {
+          "id": 10034,
+          "note": 3,
+          "comment": "Correct sans plus, ça se regarde une fois.",
+          "creationDate": "27/05/2026",
+          "user": {
+            "id": 4,
+            "name": "David Girard",
+            "email": "david.girard@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10035,
+          "note": 4,
+          "comment": "Agréable surprise, je m'attendais à moins bien.",
+          "creationDate": "30/06/2026",
+          "user": {
+            "id": 3,
+            "name": "Chloe Dubois",
+            "email": "chloe.dubois@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10036,
+          "note": 3,
+          "comment": "Quelques clichés mais dans l'ensemble ça reste regardable.",
+          "creationDate": "26/06/2026",
+          "user": {
+            "id": 8,
+            "name": "Hugo Simon",
+            "email": "hugo.simon@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10037,
+          "note": 5,
+          "comment": "Scénario ficelé, acteurs au top, rien à redire.",
+          "creationDate": "27/06/2026",
+          "user": {
+            "id": 7,
+            "name": "Gaelle Perrin",
+            "email": "gaelle.perrin@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10038,
+          "note": 5,
+          "comment": "Un des meilleurs films que j'ai vus cette année, à voir absolument.",
+          "creationDate": "21/05/2026",
+          "user": {
+            "id": 4,
+            "name": "David Girard",
+            "email": "david.girard@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        }
+      ]
     },
     {
       "id": 1127384,
@@ -91,12 +574,99 @@
       "release_date": "2026-04-30",
       "genre": "Horror",
       "poster_path": "https://image.tmdb.org/t/p/w500/kjcuS7xaRyqRjVaVcH4t0qHshuX.jpg",
-      "avis": {
-        "id": 74,
-        "note": 5,
-        "comment": "un commentaire",
-        "creationDate": "03/07/2026"
-      }
+      "avis": [
+        {
+          "id": 10039,
+          "note": 4,
+          "comment": "Un scénario bien pensé même si la fin est prévisible.",
+          "creationDate": "15/06/2026",
+          "user": {
+            "id": 3,
+            "name": "Chloe Dubois",
+            "email": "chloe.dubois@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10040,
+          "note": 4,
+          "comment": "Très bon film, quelques longueurs mais ça reste solide.",
+          "creationDate": "12/06/2026",
+          "user": {
+            "id": 2,
+            "name": "Bruno Lefevre",
+            "email": "bruno.lefevre@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10041,
+          "note": 5,
+          "comment": "Scénario ficelé, acteurs au top, rien à redire.",
+          "creationDate": "05/05/2026",
+          "user": {
+            "id": 7,
+            "name": "Gaelle Perrin",
+            "email": "gaelle.perrin@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10042,
+          "note": 3,
+          "comment": "Sympa mais oubliable, rien de transcendant.",
+          "creationDate": "10/07/2026",
+          "user": {
+            "id": 8,
+            "name": "Hugo Simon",
+            "email": "hugo.simon@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10043,
+          "note": 5,
+          "comment": "Parfait du début à la fin, aucune longueur.",
+          "creationDate": "02/05/2026",
+          "user": {
+            "id": 6,
+            "name": "Farid Benali",
+            "email": "farid.benali@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10044,
+          "note": 4,
+          "comment": "Bon rythme, bonne photographie, je valide.",
+          "creationDate": "21/05/2026",
+          "user": {
+            "id": 5,
+            "name": "Emma Rousseau",
+            "email": "emma.rousseau@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10045,
+          "note": 3,
+          "comment": "Correct sans plus, ça se regarde une fois.",
+          "creationDate": "09/05/2026",
+          "user": {
+            "id": 7,
+            "name": "Gaelle Perrin",
+            "email": "gaelle.perrin@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        }
+      ]
     },
     {
       "id": 936075,
@@ -105,12 +675,86 @@
       "release_date": "2026-04-22",
       "genre": "Music",
       "poster_path": "https://image.tmdb.org/t/p/w500/zm0KAbOjlt9eR5y7vDiL2dEOwMl.jpg",
-      "avis": {
-        "id": 3239,
-        "note": 5,
-        "comment": "un commentaire",
-        "creationDate": "03/07/2026"
-      }
+      "avis": [
+        {
+          "id": 10046,
+          "note": 3,
+          "comment": "Un peu déçu par la fin, mais l'ensemble se laisse voir.",
+          "creationDate": "09/06/2026",
+          "user": {
+            "id": 6,
+            "name": "Farid Benali",
+            "email": "farid.benali@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10047,
+          "note": 5,
+          "comment": "Je recommande à 100%, une pépite.",
+          "creationDate": "21/05/2026",
+          "user": {
+            "id": 8,
+            "name": "Hugo Simon",
+            "email": "hugo.simon@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10048,
+          "note": 4,
+          "comment": "Agréable surprise, je m'attendais à moins bien.",
+          "creationDate": "02/07/2026",
+          "user": {
+            "id": 7,
+            "name": "Gaelle Perrin",
+            "email": "gaelle.perrin@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10049,
+          "note": 4,
+          "comment": "J'ai passé un super moment, les acteurs sont convaincants.",
+          "creationDate": "16/05/2026",
+          "user": {
+            "id": 1,
+            "name": "Alice Martin",
+            "email": "alice.martin@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10050,
+          "note": 2,
+          "comment": "Trop de longueurs, difficile de rester concentré.",
+          "creationDate": "04/07/2026",
+          "user": {
+            "id": 3,
+            "name": "Chloe Dubois",
+            "email": "chloe.dubois@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10051,
+          "note": 5,
+          "comment": "Un chef-d'œuvre absolu, je n'ai pas vu le temps passer !",
+          "creationDate": "04/05/2026",
+          "user": {
+            "id": 7,
+            "name": "Gaelle Perrin",
+            "email": "gaelle.perrin@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        }
+      ]
     },
     {
       "id": 1081003,
@@ -119,12 +763,99 @@
       "genre": "Action",
       "release_date": "2026-06-24",
       "poster_path": "https://image.tmdb.org/t/p/w500/niSvU02l2BONH9ivubV6K1a5QiK.jpg",
-      "avis": {
-        "id": 315,
-        "note": 5,
-        "comment": "un commentaire",
-        "creationDate": "03/07/2026"
-      }
+      "avis": [
+        {
+          "id": 10052,
+          "note": 3,
+          "comment": "Moyen, le potentiel était là mais mal exploité.",
+          "creationDate": "28/05/2026",
+          "user": {
+            "id": 3,
+            "name": "Chloe Dubois",
+            "email": "chloe.dubois@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10053,
+          "note": 4,
+          "comment": "Très bon film, quelques longueurs mais ça reste solide.",
+          "creationDate": "14/05/2026",
+          "user": {
+            "id": 7,
+            "name": "Gaelle Perrin",
+            "email": "gaelle.perrin@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10054,
+          "note": 5,
+          "comment": "Je recommande à 100%, une pépite.",
+          "creationDate": "21/05/2026",
+          "user": {
+            "id": 7,
+            "name": "Gaelle Perrin",
+            "email": "gaelle.perrin@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10055,
+          "note": 5,
+          "comment": "Un chef-d'œuvre absolu, je n'ai pas vu le temps passer !",
+          "creationDate": "26/05/2026",
+          "user": {
+            "id": 2,
+            "name": "Bruno Lefevre",
+            "email": "bruno.lefevre@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10056,
+          "note": 4,
+          "comment": "Bon rythme, bonne photographie, je valide.",
+          "creationDate": "27/06/2026",
+          "user": {
+            "id": 7,
+            "name": "Gaelle Perrin",
+            "email": "gaelle.perrin@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10057,
+          "note": 4,
+          "comment": "J'ai passé un super moment, les acteurs sont convaincants.",
+          "creationDate": "10/07/2026",
+          "user": {
+            "id": 4,
+            "name": "David Girard",
+            "email": "david.girard@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10058,
+          "note": 5,
+          "comment": "Je recommande à 100%, une pépite.",
+          "creationDate": "15/06/2026",
+          "user": {
+            "id": 5,
+            "name": "Emma Rousseau",
+            "email": "emma.rousseau@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        }
+      ]
     },
     {
       "id": 931285,
@@ -133,12 +864,112 @@
       "poster_path": "https://image.tmdb.org/t/p/w500/hwRdDFIhaEmpRgoki805YvyyjZf.jpg",
       "release_date": "2026-05-06",
       "genre": "Action",
-      "avis": {
-        "id": 1805,
-        "note": 5,
-        "comment": "un commentaire",
-        "creationDate": "03/07/2026"
-      }
+      "avis": [
+        {
+          "id": 10059,
+          "note": 4,
+          "comment": "Agréable surprise, je m'attendais à moins bien.",
+          "creationDate": "06/06/2026",
+          "user": {
+            "id": 7,
+            "name": "Gaelle Perrin",
+            "email": "gaelle.perrin@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10060,
+          "note": 3,
+          "comment": "Ça passe le temps sans être marquant.",
+          "creationDate": "31/05/2026",
+          "user": {
+            "id": 4,
+            "name": "David Girard",
+            "email": "david.girard@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10061,
+          "note": 5,
+          "comment": "Grosse claque visuelle et émotionnelle, bravo.",
+          "creationDate": "23/06/2026",
+          "user": {
+            "id": 4,
+            "name": "David Girard",
+            "email": "david.girard@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10062,
+          "note": 5,
+          "comment": "Je recommande à 100%, une pépite.",
+          "creationDate": "25/05/2026",
+          "user": {
+            "id": 5,
+            "name": "Emma Rousseau",
+            "email": "emma.rousseau@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10063,
+          "note": 4,
+          "comment": "Bon rythme, bonne photographie, je valide.",
+          "creationDate": "02/06/2026",
+          "user": {
+            "id": 1,
+            "name": "Alice Martin",
+            "email": "alice.martin@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10064,
+          "note": 4,
+          "comment": "Vraiment sympa à regarder entre amis, bon divertissement.",
+          "creationDate": "03/06/2026",
+          "user": {
+            "id": 4,
+            "name": "David Girard",
+            "email": "david.girard@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10065,
+          "note": 4,
+          "comment": "J'ai passé un super moment, les acteurs sont convaincants.",
+          "creationDate": "06/06/2026",
+          "user": {
+            "id": 6,
+            "name": "Farid Benali",
+            "email": "farid.benali@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10066,
+          "note": 5,
+          "comment": "Un des meilleurs films que j'ai vus cette année, à voir absolument.",
+          "creationDate": "04/07/2026",
+          "user": {
+            "id": 2,
+            "name": "Bruno Lefevre",
+            "email": "bruno.lefevre@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        }
+      ]
     },
     {
       "id": 1301421,
@@ -147,12 +978,86 @@
       "poster_path": "https://image.tmdb.org/t/p/w500/iKy5460GdsoknM8ppmGlJbKxAKa.jpg",
       "release_date": "2026-04-30",
       "genre": "Adventure",
-      "avis": {
-        "id": 616,
-        "note": 5,
-        "comment": "un commentaire",
-        "creationDate": "03/07/2026"
-      }
+      "avis": [
+        {
+          "id": 10067,
+          "note": 4,
+          "comment": "Belle réalisation, l'histoire est prenante du début à la fin.",
+          "creationDate": "01/06/2026",
+          "user": {
+            "id": 5,
+            "name": "Emma Rousseau",
+            "email": "emma.rousseau@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10068,
+          "note": 4,
+          "comment": "Agréable surprise, je m'attendais à moins bien.",
+          "creationDate": "24/05/2026",
+          "user": {
+            "id": 5,
+            "name": "Emma Rousseau",
+            "email": "emma.rousseau@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10069,
+          "note": 5,
+          "comment": "Un vrai coup de cœur, je l'ai déjà revu deux fois.",
+          "creationDate": "04/05/2026",
+          "user": {
+            "id": 6,
+            "name": "Farid Benali",
+            "email": "farid.benali@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10070,
+          "note": 4,
+          "comment": "Agréable surprise, je m'attendais à moins bien.",
+          "creationDate": "18/05/2026",
+          "user": {
+            "id": 2,
+            "name": "Bruno Lefevre",
+            "email": "bruno.lefevre@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10071,
+          "note": 2,
+          "comment": "Pas convaincu par la réalisation, ça manque de rythme.",
+          "creationDate": "25/05/2026",
+          "user": {
+            "id": 6,
+            "name": "Farid Benali",
+            "email": "farid.benali@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10072,
+          "note": 5,
+          "comment": "Franchement bluffant, la mise en scène est impeccable.",
+          "creationDate": "05/05/2026",
+          "user": {
+            "id": 5,
+            "name": "Emma Rousseau",
+            "email": "emma.rousseau@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        }
+      ]
     },
     {
       "id": 1314481,
@@ -161,12 +1066,99 @@
       "genre": "Comedy",
       "release_date": "2026-04-29",
       "poster_path": "https://image.tmdb.org/t/p/w500/fCAURTUx3YfsJ8k9I0UamjSILiR.jpg",
-      "avis": {
-        "id": 1099,
-        "note": 5,
-        "comment": "un commentaire",
-        "creationDate": "03/07/2026"
-      }
+      "avis": [
+        {
+          "id": 10073,
+          "note": 5,
+          "comment": "Scénario ficelé, acteurs au top, rien à redire.",
+          "creationDate": "22/05/2026",
+          "user": {
+            "id": 7,
+            "name": "Gaelle Perrin",
+            "email": "gaelle.perrin@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10074,
+          "note": 3,
+          "comment": "Sympa mais oubliable, rien de transcendant.",
+          "creationDate": "09/05/2026",
+          "user": {
+            "id": 5,
+            "name": "Emma Rousseau",
+            "email": "emma.rousseau@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10075,
+          "note": 4,
+          "comment": "Très bon film, quelques longueurs mais ça reste solide.",
+          "creationDate": "17/05/2026",
+          "user": {
+            "id": 5,
+            "name": "Emma Rousseau",
+            "email": "emma.rousseau@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10076,
+          "note": 5,
+          "comment": "Franchement bluffant, la mise en scène est impeccable.",
+          "creationDate": "31/05/2026",
+          "user": {
+            "id": 4,
+            "name": "David Girard",
+            "email": "david.girard@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10077,
+          "note": 3,
+          "comment": "Quelques clichés mais dans l'ensemble ça reste regardable.",
+          "creationDate": "19/06/2026",
+          "user": {
+            "id": 3,
+            "name": "Chloe Dubois",
+            "email": "chloe.dubois@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10078,
+          "note": 5,
+          "comment": "Un des meilleurs films que j'ai vus cette année, à voir absolument.",
+          "creationDate": "22/06/2026",
+          "user": {
+            "id": 6,
+            "name": "Farid Benali",
+            "email": "farid.benali@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10079,
+          "note": 3,
+          "comment": "Quelques clichés mais dans l'ensemble ça reste regardable.",
+          "creationDate": "10/07/2026",
+          "user": {
+            "id": 6,
+            "name": "Farid Benali",
+            "email": "farid.benali@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        }
+      ]
     },
     {
       "id": 11012,
@@ -175,12 +1167,86 @@
       "genre": "Drama",
       "release_date": "1992-12-02",
       "poster_path": "https://image.tmdb.org/t/p/w500/alf3JOPP7EYP0iO24gwe5YfRnqo.jpg",
-      "avis": {
-        "id": 700,
-        "note": 5,
-        "creationDate": "03/07/2026",
-        "comment": "un commentaire"
-      }
+      "avis": [
+        {
+          "id": 10080,
+          "note": 1,
+          "comment": "Je n'ai pas du tout accroché, à éviter.",
+          "creationDate": "18/05/2026",
+          "user": {
+            "id": 7,
+            "name": "Gaelle Perrin",
+            "email": "gaelle.perrin@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10081,
+          "note": 4,
+          "comment": "J'ai passé un super moment, les acteurs sont convaincants.",
+          "creationDate": "28/05/2026",
+          "user": {
+            "id": 5,
+            "name": "Emma Rousseau",
+            "email": "emma.rousseau@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10082,
+          "note": 5,
+          "comment": "Un des meilleurs films que j'ai vus cette année, à voir absolument.",
+          "creationDate": "09/07/2026",
+          "user": {
+            "id": 7,
+            "name": "Gaelle Perrin",
+            "email": "gaelle.perrin@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10083,
+          "note": 3,
+          "comment": "Un peu déçu par la fin, mais l'ensemble se laisse voir.",
+          "creationDate": "30/05/2026",
+          "user": {
+            "id": 3,
+            "name": "Chloe Dubois",
+            "email": "chloe.dubois@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10084,
+          "note": 3,
+          "comment": "Quelques clichés mais dans l'ensemble ça reste regardable.",
+          "creationDate": "24/06/2026",
+          "user": {
+            "id": 2,
+            "name": "Bruno Lefevre",
+            "email": "bruno.lefevre@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10085,
+          "note": 4,
+          "comment": "Très bon film, quelques longueurs mais ça reste solide.",
+          "creationDate": "20/05/2026",
+          "user": {
+            "id": 8,
+            "name": "Hugo Simon",
+            "email": "hugo.simon@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        }
+      ]
     },
     {
       "id": 1226293,
@@ -189,12 +1255,99 @@
       "genre": "Drama",
       "release_date": "2024-02-16",
       "poster_path": "https://image.tmdb.org/t/p/w500/rMgG7cWuq9O6zhhLs2CbqIKVA8V.jpg",
-      "avis": {
-        "id": 11,
-        "note": 5,
-        "comment": "un commentaire",
-        "creationDate": "03/07/2026"
-      }
+      "avis": [
+        {
+          "id": 10086,
+          "note": 5,
+          "comment": "Un vrai coup de cœur, je l'ai déjà revu deux fois.",
+          "creationDate": "07/06/2026",
+          "user": {
+            "id": 6,
+            "name": "Farid Benali",
+            "email": "farid.benali@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10087,
+          "note": 4,
+          "comment": "Vraiment sympa à regarder entre amis, bon divertissement.",
+          "creationDate": "10/07/2026",
+          "user": {
+            "id": 8,
+            "name": "Hugo Simon",
+            "email": "hugo.simon@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10088,
+          "note": 4,
+          "comment": "Vraiment sympa à regarder entre amis, bon divertissement.",
+          "creationDate": "24/05/2026",
+          "user": {
+            "id": 5,
+            "name": "Emma Rousseau",
+            "email": "emma.rousseau@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10089,
+          "note": 4,
+          "comment": "Agréable surprise, je m'attendais à moins bien.",
+          "creationDate": "04/07/2026",
+          "user": {
+            "id": 6,
+            "name": "Farid Benali",
+            "email": "farid.benali@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10090,
+          "note": 4,
+          "comment": "J'ai passé un super moment, les acteurs sont convaincants.",
+          "creationDate": "04/07/2026",
+          "user": {
+            "id": 2,
+            "name": "Bruno Lefevre",
+            "email": "bruno.lefevre@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10091,
+          "note": 5,
+          "comment": "Je recommande à 100%, une pépite.",
+          "creationDate": "24/05/2026",
+          "user": {
+            "id": 4,
+            "name": "David Girard",
+            "email": "david.girard@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10092,
+          "note": 4,
+          "comment": "Belle réalisation, l'histoire est prenante du début à la fin.",
+          "creationDate": "19/05/2026",
+          "user": {
+            "id": 1,
+            "name": "Alice Martin",
+            "email": "alice.martin@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        }
+      ]
     },
     {
       "id": 1226863,
@@ -203,12 +1356,73 @@
       "genre": "Family",
       "release_date": "2026-04-01",
       "poster_path": "https://image.tmdb.org/t/p/w500/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg",
-      "avis": {
-        "id": 2919,
-        "note": 5,
-        "comment": "un commentaire",
-        "creationDate": "03/07/2026"
-      }
+      "avis": [
+        {
+          "id": 10093,
+          "note": 4,
+          "comment": "Belle réalisation, l'histoire est prenante du début à la fin.",
+          "creationDate": "11/05/2026",
+          "user": {
+            "id": 2,
+            "name": "Bruno Lefevre",
+            "email": "bruno.lefevre@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10094,
+          "note": 5,
+          "comment": "Un vrai coup de cœur, je l'ai déjà revu deux fois.",
+          "creationDate": "07/07/2026",
+          "user": {
+            "id": 4,
+            "name": "David Girard",
+            "email": "david.girard@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10095,
+          "note": 4,
+          "comment": "Vraiment sympa à regarder entre amis, bon divertissement.",
+          "creationDate": "10/06/2026",
+          "user": {
+            "id": 4,
+            "name": "David Girard",
+            "email": "david.girard@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10096,
+          "note": 5,
+          "comment": "Je recommande à 100%, une pépite.",
+          "creationDate": "07/06/2026",
+          "user": {
+            "id": 8,
+            "name": "Hugo Simon",
+            "email": "hugo.simon@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10097,
+          "note": 4,
+          "comment": "Vraiment sympa à regarder entre amis, bon divertissement.",
+          "creationDate": "09/07/2026",
+          "user": {
+            "id": 4,
+            "name": "David Girard",
+            "email": "david.girard@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        }
+      ]
     },
     {
       "id": 1397385,
@@ -217,12 +1431,112 @@
       "genre": "Comedy",
       "release_date": "2026-06-18",
       "poster_path": "https://image.tmdb.org/t/p/w500/hIJpXb7Xaje2mebN9ylsS7blQzP.jpg",
-      "avis": {
-        "id": 152,
-        "note": 5,
-        "comment": "un commentaire",
-        "creationDate": "03/07/2026"
-      }
+      "avis": [
+        {
+          "id": 10098,
+          "note": 5,
+          "comment": "Je recommande à 100%, une pépite.",
+          "creationDate": "02/06/2026",
+          "user": {
+            "id": 6,
+            "name": "Farid Benali",
+            "email": "farid.benali@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10099,
+          "note": 3,
+          "comment": "Des bons moments mais aussi quelques baisses de rythme.",
+          "creationDate": "14/06/2026",
+          "user": {
+            "id": 5,
+            "name": "Emma Rousseau",
+            "email": "emma.rousseau@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10100,
+          "note": 3,
+          "comment": "Correct sans plus, ça se regarde une fois.",
+          "creationDate": "02/05/2026",
+          "user": {
+            "id": 6,
+            "name": "Farid Benali",
+            "email": "farid.benali@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10101,
+          "note": 4,
+          "comment": "Un scénario bien pensé même si la fin est prévisible.",
+          "creationDate": "26/05/2026",
+          "user": {
+            "id": 6,
+            "name": "Farid Benali",
+            "email": "farid.benali@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10102,
+          "note": 3,
+          "comment": "Moyen, le potentiel était là mais mal exploité.",
+          "creationDate": "07/07/2026",
+          "user": {
+            "id": 8,
+            "name": "Hugo Simon",
+            "email": "hugo.simon@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10103,
+          "note": 2,
+          "comment": "Scénario poussif, j'ai failli arrêter en cours de route.",
+          "creationDate": "01/07/2026",
+          "user": {
+            "id": 2,
+            "name": "Bruno Lefevre",
+            "email": "bruno.lefevre@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10104,
+          "note": 4,
+          "comment": "Agréable surprise, je m'attendais à moins bien.",
+          "creationDate": "22/06/2026",
+          "user": {
+            "id": 1,
+            "name": "Alice Martin",
+            "email": "alice.martin@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10105,
+          "note": 3,
+          "comment": "Des bons moments mais aussi quelques baisses de rythme.",
+          "creationDate": "16/06/2026",
+          "user": {
+            "id": 3,
+            "name": "Chloe Dubois",
+            "email": "chloe.dubois@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        }
+      ]
     },
     {
       "id": 1228710,
@@ -231,12 +1545,73 @@
       "genre": "Action",
       "release_date": "2026-05-20",
       "poster_path": "https://image.tmdb.org/t/p/w500/5Vi8dSauVwH1HOsiZceDMbRr1Ca.jpg",
-      "avis": {
-        "id": 550,
-        "note": 5,
-        "comment": "un commentaire",
-        "creationDate": "03/07/2026"
-      }
+      "avis": [
+        {
+          "id": 10106,
+          "note": 4,
+          "comment": "Un scénario bien pensé même si la fin est prévisible.",
+          "creationDate": "01/06/2026",
+          "user": {
+            "id": 7,
+            "name": "Gaelle Perrin",
+            "email": "gaelle.perrin@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10107,
+          "note": 2,
+          "comment": "Pas convaincu par la réalisation, ça manque de rythme.",
+          "creationDate": "11/06/2026",
+          "user": {
+            "id": 8,
+            "name": "Hugo Simon",
+            "email": "hugo.simon@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10108,
+          "note": 1,
+          "comment": "Grosse déception, rien ne fonctionne dans ce film.",
+          "creationDate": "26/05/2026",
+          "user": {
+            "id": 8,
+            "name": "Hugo Simon",
+            "email": "hugo.simon@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10109,
+          "note": 2,
+          "comment": "Bof, je m'attendais à beaucoup mieux.",
+          "creationDate": "03/07/2026",
+          "user": {
+            "id": 7,
+            "name": "Gaelle Perrin",
+            "email": "gaelle.perrin@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10110,
+          "note": 5,
+          "comment": "Un vrai coup de cœur, je l'ai déjà revu deux fois.",
+          "creationDate": "29/05/2026",
+          "user": {
+            "id": 8,
+            "name": "Hugo Simon",
+            "email": "hugo.simon@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        }
+      ]
     },
     {
       "id": 9806,
@@ -245,12 +1620,73 @@
       "release_date": "2004-10-27",
       "genre": "Action",
       "poster_path": "https://image.tmdb.org/t/p/w500/2LqaLgk4Z226KkgPJuiOQ58wvrm.jpg",
-      "avis": {
-        "id": 16162,
-        "note": 5,
-        "comment": "un commentaire",
-        "creationDate": "03/07/2026"
-      }
+      "avis": [
+        {
+          "id": 10111,
+          "note": 5,
+          "comment": "Un vrai coup de cœur, je l'ai déjà revu deux fois.",
+          "creationDate": "04/06/2026",
+          "user": {
+            "id": 2,
+            "name": "Bruno Lefevre",
+            "email": "bruno.lefevre@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10112,
+          "note": 5,
+          "comment": "Franchement bluffant, la mise en scène est impeccable.",
+          "creationDate": "08/07/2026",
+          "user": {
+            "id": 6,
+            "name": "Farid Benali",
+            "email": "farid.benali@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10113,
+          "note": 5,
+          "comment": "Franchement bluffant, la mise en scène est impeccable.",
+          "creationDate": "01/07/2026",
+          "user": {
+            "id": 6,
+            "name": "Farid Benali",
+            "email": "farid.benali@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10114,
+          "note": 4,
+          "comment": "Agréable surprise, je m'attendais à moins bien.",
+          "creationDate": "22/06/2026",
+          "user": {
+            "id": 5,
+            "name": "Emma Rousseau",
+            "email": "emma.rousseau@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10115,
+          "note": 5,
+          "comment": "Parfait du début à la fin, aucune longueur.",
+          "creationDate": "15/05/2026",
+          "user": {
+            "id": 5,
+            "name": "Emma Rousseau",
+            "email": "emma.rousseau@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        }
+      ]
     },
     {
       "id": 1452,
@@ -259,12 +1695,73 @@
       "release_date": "2006-06-28",
       "genre": "Science Fiction",
       "poster_path": "https://image.tmdb.org/t/p/w500/385XwTQZDpRX2d3kxtnpiLrjBXw.jpg",
-      "avis": {
-        "id": 3716,
-        "note": 5,
-        "comment": "un commentaire",
-        "creationDate": "03/07/2026"
-      }
+      "avis": [
+        {
+          "id": 10116,
+          "note": 3,
+          "comment": "Ça passe le temps sans être marquant.",
+          "creationDate": "21/05/2026",
+          "user": {
+            "id": 7,
+            "name": "Gaelle Perrin",
+            "email": "gaelle.perrin@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10117,
+          "note": 5,
+          "comment": "Scénario ficelé, acteurs au top, rien à redire.",
+          "creationDate": "02/05/2026",
+          "user": {
+            "id": 1,
+            "name": "Alice Martin",
+            "email": "alice.martin@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10118,
+          "note": 3,
+          "comment": "Correct sans plus, ça se regarde une fois.",
+          "creationDate": "21/05/2026",
+          "user": {
+            "id": 6,
+            "name": "Farid Benali",
+            "email": "farid.benali@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10119,
+          "note": 5,
+          "comment": "Scénario ficelé, acteurs au top, rien à redire.",
+          "creationDate": "10/05/2026",
+          "user": {
+            "id": 5,
+            "name": "Emma Rousseau",
+            "email": "emma.rousseau@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10120,
+          "note": 3,
+          "comment": "Un peu déçu par la fin, mais l'ensemble se laisse voir.",
+          "creationDate": "02/06/2026",
+          "user": {
+            "id": 1,
+            "name": "Alice Martin",
+            "email": "alice.martin@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        }
+      ]
     },
     {
       "id": 603,
@@ -273,12 +1770,99 @@
       "release_date": "1999-03-30",
       "genre": "Action",
       "poster_path": "https://image.tmdb.org/t/p/w500/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg",
-      "avis": {
-        "id": 23104,
-        "note": 5,
-        "comment": "un commentaire",
-        "creationDate": "03/07/2026"
-      }
+      "avis": [
+        {
+          "id": 10121,
+          "note": 2,
+          "comment": "Dommage, le casting méritait un meilleur script.",
+          "creationDate": "14/05/2026",
+          "user": {
+            "id": 3,
+            "name": "Chloe Dubois",
+            "email": "chloe.dubois@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10122,
+          "note": 4,
+          "comment": "Un scénario bien pensé même si la fin est prévisible.",
+          "creationDate": "05/07/2026",
+          "user": {
+            "id": 1,
+            "name": "Alice Martin",
+            "email": "alice.martin@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10123,
+          "note": 5,
+          "comment": "Parfait du début à la fin, aucune longueur.",
+          "creationDate": "01/06/2026",
+          "user": {
+            "id": 8,
+            "name": "Hugo Simon",
+            "email": "hugo.simon@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10124,
+          "note": 5,
+          "comment": "Un des meilleurs films que j'ai vus cette année, à voir absolument.",
+          "creationDate": "04/06/2026",
+          "user": {
+            "id": 6,
+            "name": "Farid Benali",
+            "email": "farid.benali@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10125,
+          "note": 4,
+          "comment": "Agréable surprise, je m'attendais à moins bien.",
+          "creationDate": "16/06/2026",
+          "user": {
+            "id": 4,
+            "name": "David Girard",
+            "email": "david.girard@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10126,
+          "note": 4,
+          "comment": "J'ai passé un super moment, les acteurs sont convaincants.",
+          "creationDate": "13/06/2026",
+          "user": {
+            "id": 4,
+            "name": "David Girard",
+            "email": "david.girard@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10127,
+          "note": 2,
+          "comment": "Bof, je m'attendais à beaucoup mieux.",
+          "creationDate": "11/05/2026",
+          "user": {
+            "id": 8,
+            "name": "Hugo Simon",
+            "email": "hugo.simon@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        }
+      ]
     },
     {
       "id": 424,
@@ -287,12 +1871,73 @@
       "genre": "Drama",
       "release_date": "1993-12-15",
       "poster_path": "https://image.tmdb.org/t/p/w500/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg",
-      "avis": {
-        "id": 13997,
-        "note": 5,
-        "comment": "un commentaire",
-        "creationDate": "03/07/2026"
-      }
+      "avis": [
+        {
+          "id": 10128,
+          "note": 3,
+          "comment": "Un peu déçu par la fin, mais l'ensemble se laisse voir.",
+          "creationDate": "21/05/2026",
+          "user": {
+            "id": 2,
+            "name": "Bruno Lefevre",
+            "email": "bruno.lefevre@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10129,
+          "note": 4,
+          "comment": "J'ai passé un super moment, les acteurs sont convaincants.",
+          "creationDate": "30/05/2026",
+          "user": {
+            "id": 4,
+            "name": "David Girard",
+            "email": "david.girard@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10130,
+          "note": 4,
+          "comment": "Agréable surprise, je m'attendais à moins bien.",
+          "creationDate": "23/06/2026",
+          "user": {
+            "id": 2,
+            "name": "Bruno Lefevre",
+            "email": "bruno.lefevre@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10131,
+          "note": 5,
+          "comment": "Parfait du début à la fin, aucune longueur.",
+          "creationDate": "19/05/2026",
+          "user": {
+            "id": 5,
+            "name": "Emma Rousseau",
+            "email": "emma.rousseau@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10132,
+          "note": 3,
+          "comment": "Quelques clichés mais dans l'ensemble ça reste regardable.",
+          "creationDate": "20/05/2026",
+          "user": {
+            "id": 4,
+            "name": "David Girard",
+            "email": "david.girard@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        }
+      ]
     },
     {
       "id": 218,
@@ -301,12 +1946,112 @@
       "genre": "Action",
       "release_date": "1984-10-26",
       "poster_path": "https://image.tmdb.org/t/p/w500/kdYu7YJJP0uuGEuhUX5toqvBSog.jpg",
-      "avis": {
-        "id": 11399,
-        "note": 5,
-        "comment": "un commentaire",
-        "creationDate": "03/07/2026"
-      }
+      "avis": [
+        {
+          "id": 10133,
+          "note": 1,
+          "comment": "Un scénario incohérent du début à la fin.",
+          "creationDate": "22/06/2026",
+          "user": {
+            "id": 5,
+            "name": "Emma Rousseau",
+            "email": "emma.rousseau@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10134,
+          "note": 5,
+          "comment": "Scénario ficelé, acteurs au top, rien à redire.",
+          "creationDate": "21/06/2026",
+          "user": {
+            "id": 7,
+            "name": "Gaelle Perrin",
+            "email": "gaelle.perrin@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10135,
+          "note": 5,
+          "comment": "Un des meilleurs films que j'ai vus cette année, à voir absolument.",
+          "creationDate": "18/06/2026",
+          "user": {
+            "id": 7,
+            "name": "Gaelle Perrin",
+            "email": "gaelle.perrin@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10136,
+          "note": 4,
+          "comment": "Bon rythme, bonne photographie, je valide.",
+          "creationDate": "04/06/2026",
+          "user": {
+            "id": 2,
+            "name": "Bruno Lefevre",
+            "email": "bruno.lefevre@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10137,
+          "note": 4,
+          "comment": "Bon rythme, bonne photographie, je valide.",
+          "creationDate": "11/06/2026",
+          "user": {
+            "id": 3,
+            "name": "Chloe Dubois",
+            "email": "chloe.dubois@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10138,
+          "note": 2,
+          "comment": "Dommage, le casting méritait un meilleur script.",
+          "creationDate": "14/06/2026",
+          "user": {
+            "id": 2,
+            "name": "Bruno Lefevre",
+            "email": "bruno.lefevre@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10139,
+          "note": 4,
+          "comment": "Bon rythme, bonne photographie, je valide.",
+          "creationDate": "17/05/2026",
+          "user": {
+            "id": 4,
+            "name": "David Girard",
+            "email": "david.girard@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10140,
+          "note": 4,
+          "comment": "Un scénario bien pensé même si la fin est prévisible.",
+          "creationDate": "14/05/2026",
+          "user": {
+            "id": 8,
+            "name": "Hugo Simon",
+            "email": "hugo.simon@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        }
+      ]
     },
     {
       "id": 23483,
@@ -315,12 +2060,112 @@
       "genre": "Action",
       "release_date": "2010-03-22",
       "poster_path": "https://image.tmdb.org/t/p/w500/8citjdBmjddZjlPsAHEyCKwGVvD.jpg",
-      "avis": {
-        "id": 10732,
-        "note": 5,
-        "comment": "un commentaire",
-        "creationDate": "03/07/2026"
-      }
+      "avis": [
+        {
+          "id": 10141,
+          "note": 4,
+          "comment": "Un scénario bien pensé même si la fin est prévisible.",
+          "creationDate": "26/06/2026",
+          "user": {
+            "id": 7,
+            "name": "Gaelle Perrin",
+            "email": "gaelle.perrin@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10142,
+          "note": 5,
+          "comment": "Un vrai coup de cœur, je l'ai déjà revu deux fois.",
+          "creationDate": "10/06/2026",
+          "user": {
+            "id": 6,
+            "name": "Farid Benali",
+            "email": "farid.benali@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10143,
+          "note": 5,
+          "comment": "Scénario ficelé, acteurs au top, rien à redire.",
+          "creationDate": "29/05/2026",
+          "user": {
+            "id": 3,
+            "name": "Chloe Dubois",
+            "email": "chloe.dubois@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10144,
+          "note": 4,
+          "comment": "Agréable surprise, je m'attendais à moins bien.",
+          "creationDate": "05/07/2026",
+          "user": {
+            "id": 1,
+            "name": "Alice Martin",
+            "email": "alice.martin@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10145,
+          "note": 4,
+          "comment": "Bon rythme, bonne photographie, je valide.",
+          "creationDate": "06/05/2026",
+          "user": {
+            "id": 6,
+            "name": "Farid Benali",
+            "email": "farid.benali@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10146,
+          "note": 3,
+          "comment": "Des bons moments mais aussi quelques baisses de rythme.",
+          "creationDate": "30/05/2026",
+          "user": {
+            "id": 5,
+            "name": "Emma Rousseau",
+            "email": "emma.rousseau@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10147,
+          "note": 3,
+          "comment": "Quelques clichés mais dans l'ensemble ça reste regardable.",
+          "creationDate": "29/06/2026",
+          "user": {
+            "id": 7,
+            "name": "Gaelle Perrin",
+            "email": "gaelle.perrin@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10148,
+          "note": 3,
+          "comment": "Quelques clichés mais dans l'ensemble ça reste regardable.",
+          "creationDate": "28/06/2026",
+          "user": {
+            "id": 2,
+            "name": "Bruno Lefevre",
+            "email": "bruno.lefevre@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        }
+      ]
     },
     {
       "id": 489,
@@ -329,12 +2174,99 @@
       "genre": "Drama",
       "release_date": "1997-12-05",
       "poster_path": "https://image.tmdb.org/t/p/w500/bABCBKYBK7A5G1x0FzoeoNfuj2.jpg",
-      "avis": {
-        "id": 10649,
-        "note": 5,
-        "comment": "un commentaire",
-        "creationDate": "03/07/2026"
-      }
+      "avis": [
+        {
+          "id": 10149,
+          "note": 3,
+          "comment": "Correct sans plus, ça se regarde une fois.",
+          "creationDate": "30/06/2026",
+          "user": {
+            "id": 4,
+            "name": "David Girard",
+            "email": "david.girard@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10150,
+          "note": 5,
+          "comment": "Je recommande à 100%, une pépite.",
+          "creationDate": "24/06/2026",
+          "user": {
+            "id": 8,
+            "name": "Hugo Simon",
+            "email": "hugo.simon@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10151,
+          "note": 4,
+          "comment": "Très bon film, quelques longueurs mais ça reste solide.",
+          "creationDate": "01/07/2026",
+          "user": {
+            "id": 3,
+            "name": "Chloe Dubois",
+            "email": "chloe.dubois@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10152,
+          "note": 5,
+          "comment": "Parfait du début à la fin, aucune longueur.",
+          "creationDate": "04/06/2026",
+          "user": {
+            "id": 5,
+            "name": "Emma Rousseau",
+            "email": "emma.rousseau@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10153,
+          "note": 4,
+          "comment": "Belle réalisation, l'histoire est prenante du début à la fin.",
+          "creationDate": "20/05/2026",
+          "user": {
+            "id": 2,
+            "name": "Bruno Lefevre",
+            "email": "bruno.lefevre@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10154,
+          "note": 3,
+          "comment": "Ça passe le temps sans être marquant.",
+          "creationDate": "03/07/2026",
+          "user": {
+            "id": 1,
+            "name": "Alice Martin",
+            "email": "alice.martin@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10155,
+          "note": 5,
+          "comment": "Un des meilleurs films que j'ai vus cette année, à voir absolument.",
+          "creationDate": "11/05/2026",
+          "user": {
+            "id": 3,
+            "name": "Chloe Dubois",
+            "email": "chloe.dubois@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        }
+      ]
     },
     {
       "genre": "Action",
@@ -343,12 +2275,99 @@
       "title": "Aliens",
       "release_date": "1986-07-18",
       "poster_path": "https://image.tmdb.org/t/p/w500/r1x5JGpyqZU8PYhbs4UcrO1Xb6x.jpg",
-      "avis": {
-        "id": 8395,
-        "comment": "un commentaire",
-        "note": 5,
-        "creationDate": "03/07/2026"
-      }
+      "avis": [
+        {
+          "id": 10156,
+          "note": 4,
+          "comment": "Un scénario bien pensé même si la fin est prévisible.",
+          "creationDate": "09/06/2026",
+          "user": {
+            "id": 6,
+            "name": "Farid Benali",
+            "email": "farid.benali@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10157,
+          "note": 5,
+          "comment": "Grosse claque visuelle et émotionnelle, bravo.",
+          "creationDate": "02/07/2026",
+          "user": {
+            "id": 6,
+            "name": "Farid Benali",
+            "email": "farid.benali@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10158,
+          "note": 5,
+          "comment": "Un vrai coup de cœur, je l'ai déjà revu deux fois.",
+          "creationDate": "19/06/2026",
+          "user": {
+            "id": 4,
+            "name": "David Girard",
+            "email": "david.girard@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10159,
+          "note": 4,
+          "comment": "Bon rythme, bonne photographie, je valide.",
+          "creationDate": "05/05/2026",
+          "user": {
+            "id": 1,
+            "name": "Alice Martin",
+            "email": "alice.martin@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10160,
+          "note": 4,
+          "comment": "J'ai passé un super moment, les acteurs sont convaincants.",
+          "creationDate": "06/05/2026",
+          "user": {
+            "id": 4,
+            "name": "David Girard",
+            "email": "david.girard@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10161,
+          "note": 5,
+          "comment": "Franchement bluffant, la mise en scène est impeccable.",
+          "creationDate": "27/05/2026",
+          "user": {
+            "id": 3,
+            "name": "Chloe Dubois",
+            "email": "chloe.dubois@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10162,
+          "note": 5,
+          "comment": "Un des meilleurs films que j'ai vus cette année, à voir absolument.",
+          "creationDate": "14/05/2026",
+          "user": {
+            "id": 2,
+            "name": "Bruno Lefevre",
+            "email": "bruno.lefevre@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        }
+      ]
     },
     {
       "id": 453,
@@ -357,12 +2376,99 @@
       "genre": "Drama",
       "release_date": "2001-12-11",
       "poster_path": "https://image.tmdb.org/t/p/w500/zwzWCmH72OSC9NA0ipoqw5Zjya8.jpg",
-      "avis": {
-        "id": 9201,
-        "note": 5,
-        "comment": "un commentaire",
-        "creationDate": "03/07/2026"
-      }
+      "avis": [
+        {
+          "id": 10163,
+          "note": 1,
+          "comment": "Vraiment décevant, j'ai perdu mon temps.",
+          "creationDate": "05/07/2026",
+          "user": {
+            "id": 4,
+            "name": "David Girard",
+            "email": "david.girard@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10164,
+          "note": 4,
+          "comment": "Agréable surprise, je m'attendais à moins bien.",
+          "creationDate": "02/05/2026",
+          "user": {
+            "id": 4,
+            "name": "David Girard",
+            "email": "david.girard@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10165,
+          "note": 3,
+          "comment": "Un peu déçu par la fin, mais l'ensemble se laisse voir.",
+          "creationDate": "19/06/2026",
+          "user": {
+            "id": 6,
+            "name": "Farid Benali",
+            "email": "farid.benali@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10166,
+          "note": 5,
+          "comment": "Je recommande à 100%, une pépite.",
+          "creationDate": "10/05/2026",
+          "user": {
+            "id": 1,
+            "name": "Alice Martin",
+            "email": "alice.martin@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10167,
+          "note": 5,
+          "comment": "Un vrai coup de cœur, je l'ai déjà revu deux fois.",
+          "creationDate": "10/06/2026",
+          "user": {
+            "id": 6,
+            "name": "Farid Benali",
+            "email": "farid.benali@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10168,
+          "note": 4,
+          "comment": "Bon rythme, bonne photographie, je valide.",
+          "creationDate": "28/06/2026",
+          "user": {
+            "id": 4,
+            "name": "David Girard",
+            "email": "david.girard@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10169,
+          "note": 2,
+          "comment": "Dommage, le casting méritait un meilleur script.",
+          "creationDate": "21/05/2026",
+          "user": {
+            "id": 2,
+            "name": "Bruno Lefevre",
+            "email": "bruno.lefevre@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        }
+      ]
     },
     {
       "id": 807,
@@ -371,12 +2477,86 @@
       "genre": "Crime",
       "release_date": "1995-09-22",
       "poster_path": "https://image.tmdb.org/t/p/w500/6yoghtyTpznpBik8EngEmJskVUO.jpg",
-      "avis": {
-        "id": 18674,
-        "note": 5,
-        "comment": "un commentaire",
-        "creationDate": "03/07/2026"
-      }
+      "avis": [
+        {
+          "id": 10170,
+          "note": 4,
+          "comment": "Un scénario bien pensé même si la fin est prévisible.",
+          "creationDate": "20/06/2026",
+          "user": {
+            "id": 4,
+            "name": "David Girard",
+            "email": "david.girard@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10171,
+          "note": 3,
+          "comment": "Moyen, le potentiel était là mais mal exploité.",
+          "creationDate": "17/05/2026",
+          "user": {
+            "id": 4,
+            "name": "David Girard",
+            "email": "david.girard@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10172,
+          "note": 4,
+          "comment": "Vraiment sympa à regarder entre amis, bon divertissement.",
+          "creationDate": "24/05/2026",
+          "user": {
+            "id": 2,
+            "name": "Bruno Lefevre",
+            "email": "bruno.lefevre@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10173,
+          "note": 3,
+          "comment": "Un peu déçu par la fin, mais l'ensemble se laisse voir.",
+          "creationDate": "08/06/2026",
+          "user": {
+            "id": 1,
+            "name": "Alice Martin",
+            "email": "alice.martin@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10174,
+          "note": 5,
+          "comment": "Scénario ficelé, acteurs au top, rien à redire.",
+          "creationDate": "13/06/2026",
+          "user": {
+            "id": 8,
+            "name": "Hugo Simon",
+            "email": "hugo.simon@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10175,
+          "note": 5,
+          "comment": "Parfait du début à la fin, aucune longueur.",
+          "creationDate": "07/05/2026",
+          "user": {
+            "id": 4,
+            "name": "David Girard",
+            "email": "david.girard@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        }
+      ]
     },
     {
       "id": 180,
@@ -385,12 +2565,73 @@
       "genre": "Action",
       "release_date": "2002-06-20",
       "poster_path": "https://image.tmdb.org/t/p/w500/ccqpHq5tk5W4ymbSbuoy4uYOxFI.jpg",
-      "avis": {
-        "id": 7725,
-        "note": 5,
-        "comment": "un commentaire",
-        "creationDate": "03/07/2026"
-      }
+      "avis": [
+        {
+          "id": 10176,
+          "note": 3,
+          "comment": "Quelques clichés mais dans l'ensemble ça reste regardable.",
+          "creationDate": "27/06/2026",
+          "user": {
+            "id": 6,
+            "name": "Farid Benali",
+            "email": "farid.benali@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10177,
+          "note": 4,
+          "comment": "Un scénario bien pensé même si la fin est prévisible.",
+          "creationDate": "02/05/2026",
+          "user": {
+            "id": 4,
+            "name": "David Girard",
+            "email": "david.girard@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10178,
+          "note": 4,
+          "comment": "Très bon film, quelques longueurs mais ça reste solide.",
+          "creationDate": "03/07/2026",
+          "user": {
+            "id": 4,
+            "name": "David Girard",
+            "email": "david.girard@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10179,
+          "note": 3,
+          "comment": "Sympa mais oubliable, rien de transcendant.",
+          "creationDate": "06/07/2026",
+          "user": {
+            "id": 3,
+            "name": "Chloe Dubois",
+            "email": "chloe.dubois@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10180,
+          "note": 4,
+          "comment": "Bon rythme, bonne photographie, je valide.",
+          "creationDate": "27/06/2026",
+          "user": {
+            "id": 1,
+            "name": "Alice Martin",
+            "email": "alice.martin@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        }
+      ]
     },
     {
       "id": 73,
@@ -399,12 +2640,112 @@
       "release_date": "1998-07-01",
       "genre": "Drama",
       "poster_path": "https://image.tmdb.org/t/p/w500/c2gsmSQ2Cqv8zosqKOCwRS0GFBS.jpg",
-      "avis": {
-        "id": 10343,
-        "note": 5,
-        "comment": "un commentaire",
-        "creationDate": "03/07/2026"
-      }
+      "avis": [
+        {
+          "id": 10181,
+          "note": 3,
+          "comment": "Sympa mais oubliable, rien de transcendant.",
+          "creationDate": "11/05/2026",
+          "user": {
+            "id": 2,
+            "name": "Bruno Lefevre",
+            "email": "bruno.lefevre@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10182,
+          "note": 3,
+          "comment": "Un peu déçu par la fin, mais l'ensemble se laisse voir.",
+          "creationDate": "17/05/2026",
+          "user": {
+            "id": 5,
+            "name": "Emma Rousseau",
+            "email": "emma.rousseau@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10183,
+          "note": 5,
+          "comment": "Franchement bluffant, la mise en scène est impeccable.",
+          "creationDate": "03/07/2026",
+          "user": {
+            "id": 6,
+            "name": "Farid Benali",
+            "email": "farid.benali@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10184,
+          "note": 5,
+          "comment": "Un chef-d'œuvre absolu, je n'ai pas vu le temps passer !",
+          "creationDate": "24/05/2026",
+          "user": {
+            "id": 7,
+            "name": "Gaelle Perrin",
+            "email": "gaelle.perrin@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10185,
+          "note": 5,
+          "comment": "Grosse claque visuelle et émotionnelle, bravo.",
+          "creationDate": "08/05/2026",
+          "user": {
+            "id": 3,
+            "name": "Chloe Dubois",
+            "email": "chloe.dubois@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10186,
+          "note": 4,
+          "comment": "J'ai passé un super moment, les acteurs sont convaincants.",
+          "creationDate": "11/05/2026",
+          "user": {
+            "id": 6,
+            "name": "Farid Benali",
+            "email": "farid.benali@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10187,
+          "note": 3,
+          "comment": "Quelques clichés mais dans l'ensemble ça reste regardable.",
+          "creationDate": "18/05/2026",
+          "user": {
+            "id": 5,
+            "name": "Emma Rousseau",
+            "email": "emma.rousseau@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10188,
+          "note": 3,
+          "comment": "Correct sans plus, ça se regarde une fois.",
+          "creationDate": "17/06/2026",
+          "user": {
+            "id": 8,
+            "name": "Hugo Simon",
+            "email": "hugo.simon@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        }
+      ]
     },
     {
       "id": 19995,
@@ -413,12 +2754,112 @@
       "genre": "Action",
       "release_date": "2009-12-15",
       "poster_path": "https://image.tmdb.org/t/p/w500/jRXYjXNq0Cs2TcJjLkki24MLp7u.jpg",
-      "avis": {
-        "id": 28980,
-        "note": 5,
-        "comment": "un commentaire",
-        "creationDate": "03/07/2026"
-      }
+      "avis": [
+        {
+          "id": 10189,
+          "note": 4,
+          "comment": "Bon rythme, bonne photographie, je valide.",
+          "creationDate": "02/05/2026",
+          "user": {
+            "id": 1,
+            "name": "Alice Martin",
+            "email": "alice.martin@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10190,
+          "note": 3,
+          "comment": "Sympa mais oubliable, rien de transcendant.",
+          "creationDate": "25/05/2026",
+          "user": {
+            "id": 1,
+            "name": "Alice Martin",
+            "email": "alice.martin@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10191,
+          "note": 4,
+          "comment": "Bon rythme, bonne photographie, je valide.",
+          "creationDate": "04/07/2026",
+          "user": {
+            "id": 4,
+            "name": "David Girard",
+            "email": "david.girard@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10192,
+          "note": 4,
+          "comment": "Bon rythme, bonne photographie, je valide.",
+          "creationDate": "10/05/2026",
+          "user": {
+            "id": 1,
+            "name": "Alice Martin",
+            "email": "alice.martin@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10193,
+          "note": 2,
+          "comment": "Bof, je m'attendais à beaucoup mieux.",
+          "creationDate": "07/05/2026",
+          "user": {
+            "id": 8,
+            "name": "Hugo Simon",
+            "email": "hugo.simon@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10194,
+          "note": 5,
+          "comment": "Je recommande à 100%, une pépite.",
+          "creationDate": "18/06/2026",
+          "user": {
+            "id": 5,
+            "name": "Emma Rousseau",
+            "email": "emma.rousseau@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10195,
+          "note": 4,
+          "comment": "Très bon film, quelques longueurs mais ça reste solide.",
+          "creationDate": "08/07/2026",
+          "user": {
+            "id": 1,
+            "name": "Alice Martin",
+            "email": "alice.martin@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10196,
+          "note": 2,
+          "comment": "Pas convaincu par la réalisation, ça manque de rythme.",
+          "creationDate": "10/05/2026",
+          "user": {
+            "id": 7,
+            "name": "Gaelle Perrin",
+            "email": "gaelle.perrin@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        }
+      ]
     },
     {
       "id": 38,
@@ -427,12 +2868,73 @@
       "release_date": "2004-03-19",
       "genre": "Science Fiction",
       "poster_path": "https://image.tmdb.org/t/p/w500/5MwkWH9tYHv3mV9OdYTMR5qreIz.jpg",
-      "avis": {
-        "id": 13294,
-        "note": 5,
-        "comment": "un commentaire",
-        "creationDate": "03/07/2026"
-      }
+      "avis": [
+        {
+          "id": 10197,
+          "note": 2,
+          "comment": "Bof, je m'attendais à beaucoup mieux.",
+          "creationDate": "05/05/2026",
+          "user": {
+            "id": 2,
+            "name": "Bruno Lefevre",
+            "email": "bruno.lefevre@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10198,
+          "note": 4,
+          "comment": "Un scénario bien pensé même si la fin est prévisible.",
+          "creationDate": "14/05/2026",
+          "user": {
+            "id": 2,
+            "name": "Bruno Lefevre",
+            "email": "bruno.lefevre@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10199,
+          "note": 5,
+          "comment": "Parfait du début à la fin, aucune longueur.",
+          "creationDate": "01/07/2026",
+          "user": {
+            "id": 1,
+            "name": "Alice Martin",
+            "email": "alice.martin@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10200,
+          "note": 4,
+          "comment": "Agréable surprise, je m'attendais à moins bien.",
+          "creationDate": "18/06/2026",
+          "user": {
+            "id": 2,
+            "name": "Bruno Lefevre",
+            "email": "bruno.lefevre@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10201,
+          "note": 4,
+          "comment": "J'ai passé un super moment, les acteurs sont convaincants.",
+          "creationDate": "18/06/2026",
+          "user": {
+            "id": 4,
+            "name": "David Girard",
+            "email": "david.girard@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        }
+      ]
     },
     {
       "id": 10681,
@@ -441,12 +2943,86 @@
       "genre": "Animation",
       "release_date": "2008-06-22",
       "poster_path": "https://image.tmdb.org/t/p/w500/Agc6lw8pb6BIGVeguvdjDT0p9Mb.jpg",
-      "avis": {
-        "id": 16926,
-        "note": 5,
-        "comment": "un commentaire",
-        "creationDate": "03/07/2026"
-      }
+      "avis": [
+        {
+          "id": 10202,
+          "note": 4,
+          "comment": "Un scénario bien pensé même si la fin est prévisible.",
+          "creationDate": "26/05/2026",
+          "user": {
+            "id": 3,
+            "name": "Chloe Dubois",
+            "email": "chloe.dubois@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10203,
+          "note": 5,
+          "comment": "Un chef-d'œuvre absolu, je n'ai pas vu le temps passer !",
+          "creationDate": "04/07/2026",
+          "user": {
+            "id": 5,
+            "name": "Emma Rousseau",
+            "email": "emma.rousseau@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10204,
+          "note": 5,
+          "comment": "Parfait du début à la fin, aucune longueur.",
+          "creationDate": "26/06/2026",
+          "user": {
+            "id": 1,
+            "name": "Alice Martin",
+            "email": "alice.martin@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10205,
+          "note": 4,
+          "comment": "Très bon film, quelques longueurs mais ça reste solide.",
+          "creationDate": "08/05/2026",
+          "user": {
+            "id": 8,
+            "name": "Hugo Simon",
+            "email": "hugo.simon@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10206,
+          "note": 5,
+          "comment": "Un chef-d'œuvre absolu, je n'ai pas vu le temps passer !",
+          "creationDate": "11/06/2026",
+          "user": {
+            "id": 5,
+            "name": "Emma Rousseau",
+            "email": "emma.rousseau@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10207,
+          "note": 5,
+          "comment": "Grosse claque visuelle et émotionnelle, bravo.",
+          "creationDate": "26/06/2026",
+          "user": {
+            "id": 4,
+            "name": "David Girard",
+            "email": "david.girard@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        }
+      ]
     },
     {
       "id": 78,
@@ -455,12 +3031,139 @@
       "release_date": "1982-06-25",
       "genre": "Science Fiction",
       "poster_path": "https://image.tmdb.org/t/p/w500/63N9uy8nd9j7Eog2axPQ8lbr3Wj.jpg",
-      "avis": {
-        "id": 12351,
-        "note": 5,
-        "comment": "un commentaire",
-        "creationDate": "03/07/2026"
-      }
+      "avis": [
+        {
+          "id": 10208,
+          "note": 2,
+          "comment": "Pas convaincu par la réalisation, ça manque de rythme.",
+          "creationDate": "20/06/2026",
+          "user": {
+            "id": 4,
+            "name": "David Girard",
+            "email": "david.girard@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10209,
+          "note": 3,
+          "comment": "Quelques clichés mais dans l'ensemble ça reste regardable.",
+          "creationDate": "27/05/2026",
+          "user": {
+            "id": 8,
+            "name": "Hugo Simon",
+            "email": "hugo.simon@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10210,
+          "note": 5,
+          "comment": "Scénario ficelé, acteurs au top, rien à redire.",
+          "creationDate": "05/05/2026",
+          "user": {
+            "id": 8,
+            "name": "Hugo Simon",
+            "email": "hugo.simon@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10211,
+          "note": 5,
+          "comment": "Un chef-d'œuvre absolu, je n'ai pas vu le temps passer !",
+          "creationDate": "20/06/2026",
+          "user": {
+            "id": 2,
+            "name": "Bruno Lefevre",
+            "email": "bruno.lefevre@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        },
+        {
+          "id": 10212,
+          "note": 4,
+          "comment": "Très bon film, quelques longueurs mais ça reste solide.",
+          "creationDate": "25/06/2026",
+          "user": {
+            "id": 1,
+            "name": "Alice Martin",
+            "email": "alice.martin@example.com",
+            "password": "password123",
+            "role": "user"
+          }
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice Martin",
+      "email": "alice.martin@example.com",
+      "password": "password123",
+      "role": "user",
+      "avis": []
+    },
+    {
+      "id": 2,
+      "name": "Bruno Lefevre",
+      "email": "bruno.lefevre@example.com",
+      "password": "password123",
+      "role": "user",
+      "avis": []
+    },
+    {
+      "id": 3,
+      "name": "Chloe Dubois",
+      "email": "chloe.dubois@example.com",
+      "password": "password123",
+      "role": "user",
+      "avis": []
+    },
+    {
+      "id": 4,
+      "name": "David Girard",
+      "email": "david.girard@example.com",
+      "password": "password123",
+      "role": "user",
+      "avis": []
+    },
+    {
+      "id": 5,
+      "name": "Emma Rousseau",
+      "email": "emma.rousseau@example.com",
+      "password": "password123",
+      "role": "user",
+      "avis": []
+    },
+    {
+      "id": 6,
+      "name": "Farid Benali",
+      "email": "farid.benali@example.com",
+      "password": "password123",
+      "role": "user",
+      "avis": []
+    },
+    {
+      "id": 7,
+      "name": "Gaelle Perrin",
+      "email": "gaelle.perrin@example.com",
+      "password": "password123",
+      "role": "user",
+      "avis": []
+    },
+    {
+      "id": 8,
+      "name": "Hugo Simon",
+      "email": "hugo.simon@example.com",
+      "password": "password123",
+      "role": "user",
+      "avis": []
     }
   ]
 }

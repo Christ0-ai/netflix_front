@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest';
 import { render } from '@testing-library/react';
 import EmblaCarousel from './EmblaCarousel.tsx';
 import type { Movie } from '@/types/movies.ts';
+import { MemoryRouter } from 'react-router';
 
 describe('<EmblaCarousel>', () => {
   it('should render correctly', () => {
@@ -20,6 +21,14 @@ describe('<EmblaCarousel>', () => {
             note: 5,
             comment: 'un commentaire',
             creationDate: new Date(),
+            user: {
+              id: 0,
+              name: '',
+              email: '',
+              password: '',
+              role: '',
+              avis: [],
+            },
           },
         ],
       },
@@ -37,17 +46,29 @@ describe('<EmblaCarousel>', () => {
             note: 5,
             comment: 'un commentaire',
             creationDate: new Date(),
+            user: {
+              id: 0,
+              name: '',
+              email: '',
+              password: '',
+              role: '',
+              avis: [],
+            },
           },
         ],
       },
     ];
 
-    const { container } = render(<EmblaCarousel movies={movies} />);
+    const { container } = render(
+      <MemoryRouter>
+        <EmblaCarousel movies={movies} />
+      </MemoryRouter>,
+    );
     expect(container.firstChild).toMatchInlineSnapshot(`
       <div>
         <div>
           <div
-            class="flex gap-2 "
+            class="flex gap-2"
             style="transform: translate3d(0px,0px,0px);"
           >
             <div

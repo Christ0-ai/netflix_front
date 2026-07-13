@@ -13,4 +13,14 @@ export type Avis = {
   note: number;
   comment: string;
   creationDate: Date;
+  user: User;
+};
+
+export type User = {
+  id: number;
+  name: string;
+  email: string;
+  password: string;
+  role: string;
+  avis: Avis[];
 };
