@@ -3,14 +3,14 @@ export type Movie = {
   title: string;
   description: string;
   genre: string;
-  release_date: Date;
-  poster_path: string;
-  avis: Avis[];
+  releaseDate: Date;
+  posterPath: string;
+  reviews: Review[];
 };
 
-export type Avis = {
+export type Review = {
   id: number;
-  note: number;
+  rating: number;
   comment: string;
   creationDate: Date;
   user: User;
@@ -22,5 +22,13 @@ export type User = {
   email: string;
   password: string;
   role: string;
-  avis: Avis[];
+  reviews: Review[];
+};
+
+export type CreateMovieDto = {
+  title: string;
+  description: string;
+  genre: string;
+  releaseDate: Date;
+  posterPath: string;
 };

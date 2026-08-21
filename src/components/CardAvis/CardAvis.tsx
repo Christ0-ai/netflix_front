@@ -1,11 +1,11 @@
 import { Card } from '@heroui/react';
-import type { Avis } from '@/types/movies.ts';
+import type { Review } from '@/types/movies.ts';
 
 interface CardAvisProps {
-  avis: Avis;
+  review: Review;
 }
 
-export default function CardAvis({ avis }: Readonly<CardAvisProps>) {
+export default function CardAvis({ review: review }: Readonly<CardAvisProps>) {
   return (
     <div className="flex flex-wrap gap-4">
       <Card className="gap-2">
@@ -16,12 +16,12 @@ export default function CardAvis({ avis }: Readonly<CardAvisProps>) {
           src="https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/docs/demo2.jpg"
         />
         <Card.Header>
-          <Card.Title>{avis.user.name}</Card.Title>
-          <Card.Description>{avis.comment}</Card.Description>
+          <Card.Title>{review.user.name}</Card.Title>
+          <Card.Description>{review.comment}</Card.Description>
         </Card.Header>
         <Card.Footer className="flex gap-2">
           <div>
-            {Array.from({ length: avis.note }).map((_, index) => (
+            {Array.from({ length: review.rating }).map((_, index) => (
               <span key={index}>⭐</span>
             ))}
           </div>
