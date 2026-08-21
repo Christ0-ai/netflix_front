@@ -16,7 +16,7 @@ function MoviesSearchResult({ movies, searchMovie }: Readonly<MoviesSearchResult
       {movies.map((m) => (
         <section key={`movie-${m.id}`}>
           <div className="movie-card">
-            <img src={m.poster_path} alt={m.title} width={250} onClick={() => navigate(`/movie/${m.id}`)} />
+            <img src={m.posterPath} alt={m.title} width={250} onClick={() => navigate(`/movie/${m.id}`)} />
           </div>
         </section>
       ))}

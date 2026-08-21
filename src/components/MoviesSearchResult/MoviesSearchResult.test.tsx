@@ -12,13 +12,13 @@ describe('<MoviesSearchResult>', () => {
         title: 'Superman Returns',
         description:
           'Superman returns to discover his 5-year absence has allowed Lex Luthor to walk free, and that those he was closest to felt abandoned and have moved on. Luthor plots his ultimate revenge that could see millions killed and change the face of the planet forever, as well as ridding himself of the Man of Steel.',
-        release_date: new Date(),
+        releaseDate: new Date(),
         genre: 'Science Fiction',
-        poster_path: 'https://image.tmdb.org/t/p/w500/385XwTQZDpRX2d3kxtnpiLrjBXw.jpg',
-        avis: [
+        posterPath: 'https://image.tmdb.org/t/p/w500/385XwTQZDpRX2d3kxtnpiLrjBXw.jpg',
+        reviews: [
           {
             id: 3716,
-            note: 5,
+            rating: 5,
             comment: 'un commentaire',
             creationDate: new Date(),
             user: {
@@ -27,7 +27,7 @@ describe('<MoviesSearchResult>', () => {
               email: '',
               password: '',
               role: '',
-              avis: [],
+              reviews: [],
             },
           },
         ],
@@ -38,12 +38,12 @@ describe('<MoviesSearchResult>', () => {
         description:
           'When an unexpected and ruthless adversary strikes too close to home, Kara Zor-El, aka Supergirl, reluctantly joins forces with an unlikely companion on an epic, interstellar journey of vengeance and justice.',
         genre: 'Action',
-        release_date: new Date(),
-        poster_path: 'https://image.tmdb.org/t/p/w500/niSvU02l2BONH9ivubV6K1a5QiK.jpg',
-        avis: [
+        releaseDate: new Date(),
+        posterPath: 'https://image.tmdb.org/t/p/w500/niSvU02l2BONH9ivubV6K1a5QiK.jpg',
+        reviews: [
           {
             id: 315,
-            note: 5,
+            rating: 5,
             comment: 'un commentaire',
             creationDate: new Date(),
             user: {
@@ -52,7 +52,7 @@ describe('<MoviesSearchResult>', () => {
               email: '',
               password: '',
               role: '',
-              avis: [],
+              reviews: [],
             },
           },
         ],

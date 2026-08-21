@@ -25,3 +25,7 @@ dist-ssr
 
 Makefile
 coverage/
+
+copilot-instructions.md
+.agents
+skills-lock.json

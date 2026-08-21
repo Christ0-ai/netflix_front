@@ -1,6 +1,6 @@
 import logoNetflix from '@/assets/images/bg-netflix.webp';
 import type { Movie } from '@/types/movies.ts';
-import { type MovieType, MovieTypes } from '@/constante.ts';
+import { type MovieGenre, MovieTypes } from '@/constante.ts';
 import SearchBar from '@/components/SearchBar/SearchBar.tsx';
 import { useState } from 'react';
 import { SpinnerBasic } from '@/components/SpinnerBasic.tsx';
@@ -21,37 +21,15 @@ function Home() {
   const displayMovies = (movies ?? []).filter((m) => m.title.toLowerCase().includes(searchMovie.toLowerCase()));
 
   // functions
-  function getMoviesByGenre(genre: MovieType) {
+  function getMoviesByGenre(genre: MovieGenre) {
     return (movies ?? []).filter((m) => m.genre === genre);
   }
 
   const categories = movies
-    ? [
-        {
-          title: MovieTypes.ANIMATION,
-          movies: getMoviesByGenre(MovieTypes.ANIMATION),
-        },
-        {
-          title: MovieTypes.SCIENCE_FICTION,
-          movies: getMoviesByGenre(MovieTypes.SCIENCE_FICTION),
-        },
-        {
-          title: MovieTypes.HORROR,
-          movies: getMoviesByGenre(MovieTypes.HORROR),
-        },
-        {
-          title: MovieTypes.ACTION,
-          movies: getMoviesByGenre(MovieTypes.ACTION),
-        },
-        {
-          title: MovieTypes.FAMILY,
-          movies: getMoviesByGenre(MovieTypes.FAMILY),
-        },
-        {
-          title: MovieTypes.DRAMA,
-          movies: getMoviesByGenre(MovieTypes.DRAMA),
-        },
-      ]
+    ? (Object.keys(MovieTypes) as MovieGenre[]).map((genre) => ({
+        title: MovieTypes[genre],
+        movies: getMoviesByGenre(genre),
+      }))
     : [];
 
   return (

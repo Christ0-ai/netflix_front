@@ -29,6 +29,7 @@
     "@babel/core": "^7.29.7",
     "@bokub/prettier-config": "^2.1.0",
     "@eslint/js": "^10.0.1",
+    "@gravity-ui/icons": "^2.20.0",
     "@rolldown/plugin-babel": "^0.2.3",
     "@tanstack/eslint-plugin-query": "^5.101.2",
     "@testing-library/dom": "^10.4.1",

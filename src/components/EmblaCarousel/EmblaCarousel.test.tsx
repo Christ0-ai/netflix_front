@@ -13,12 +13,12 @@ describe('<EmblaCarousel>', () => {
         description:
           "A cybersecurity expert becomes a whistleblower after uncovering secrets about aliens, putting him on the run from a corporation. Meanwhile, a meteorologist experiencing strange phenomena joins forces with him to prove there's life beyond our understanding.",
         genre: 'Science Fiction',
-        release_date: new Date(),
-        poster_path: 'https://image.tmdb.org/t/p/w500/AnJ8IQJI23hNpYXVNaythu061Ru.jpg',
-        avis: [
+        releaseDate: new Date(),
+        posterPath: 'https://image.tmdb.org/t/p/w500/AnJ8IQJI23hNpYXVNaythu061Ru.jpg',
+        reviews: [
           {
             id: 769,
-            note: 5,
+            rating: 5,
             comment: 'un commentaire',
             creationDate: new Date(),
             user: {
@@ -27,7 +27,7 @@ describe('<EmblaCarousel>', () => {
               email: '',
               password: '',
               role: '',
-              avis: [],
+              reviews: [],
             },
           },
         ],
@@ -38,12 +38,12 @@ describe('<EmblaCarousel>', () => {
         description:
           'After breaking the mysterious "One Wish Willow" to win his crush\'s heart, a hopeless romantic finds himself getting exactly what he asked for but soon discovers that some desires come at a dark, sinister price.',
         genre: 'Horror',
-        release_date: new Date(),
-        poster_path: 'https://image.tmdb.org/t/p/w500/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg',
-        avis: [
+        releaseDate: new Date(),
+        posterPath: 'https://image.tmdb.org/t/p/w500/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg',
+        reviews: [
           {
             id: 1636,
-            note: 5,
+            rating: 5,
             comment: 'un commentaire',
             creationDate: new Date(),
             user: {
@@ -52,7 +52,7 @@ describe('<EmblaCarousel>', () => {
               email: '',
               password: '',
               role: '',
-              avis: [],
+              reviews: [],
             },
           },
         ],

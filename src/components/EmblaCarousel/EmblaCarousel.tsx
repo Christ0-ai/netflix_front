@@ -19,7 +19,7 @@ const EmblaCarousel = ({ movies, options }: Readonly<EmblaCarouselProps>) => {
         <div className="flex gap-2">
           {movies.map((movie) => (
             <div className="movie-card flex-none" key={movie.id}>
-              <img src={movie.poster_path} width={'200'} alt="" onClick={() => navigate(`/movie/${movie.id}`)} />
+              <img src={movie.posterPath} width={'200'} alt="" onClick={() => navigate(`/movie/${movie.id}`)} />
             </div>
           ))}
         </div>

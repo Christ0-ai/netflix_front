@@ -1,13 +1,13 @@
 import { describe, expect, it } from 'vitest';
-import type { Avis } from '@/types/movies.ts';
+import type { Review } from '@/types/movies.ts';
 import CardAvis from '@/components/CardAvis/CardAvis.tsx';
 import { render } from '@testing-library/react';
 
 describe('<CardAvis>', () => {
   it('should render correctly', () => {
-    const avis: Avis = {
+    const avis: Review = {
       id: 769,
-      note: 5,
+      rating: 5,
       comment: 'un commentaire',
       creationDate: new Date(),
       user: {
@@ -16,11 +16,11 @@ describe('<CardAvis>', () => {
         email: '',
         password: '',
         role: '',
-        avis: [],
+        reviews: [],
       },
     };
 
-    const { container } = render(<CardAvis avis={avis} />);
+    const { container } = render(<CardAvis review={avis} />);
     expect(container.firstChild).toMatchInlineSnapshot(`
       <div
         class="flex flex-wrap gap-4"
